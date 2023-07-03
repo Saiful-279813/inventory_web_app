@@ -1,0 +1,119 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 768px) and (max-width: 992px) {
+    .sidebar.close{
+        width: 260px !important;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .table-responsive .form-body{
+        background-color: transparent;
+    }
+    .form-delete-icon, .form-edit-icon, .form-view-icon {
+        margin-bottom: 5px;
+    }
+    .form-header {
+        height: 120px !important;
+    }
+    .form-header .form-top-link {
+        float: left;
+    }
+    .form-header .form-top-title h3 {
+        font-size: 16px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .form-header .all-link {
+        padding: 10px 13px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+/* Large Mobile :350px. */
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    .form-header {
+        height: 155px !important;
+    }
+    .auth-phone-width-text {
+        width: 100%;
+    }
+    .auth-phone-width-img{
+        display: none;
+    }
+
+    .data_list_header_action_bar_large{
+        display:none;
+    }
+    
+    .data_list_header_action_bar_small{
+        display:block !important
+    }
+
+    .data_list_header_action_bar_small .child {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .form-body {
+        padding: 0px;
+    }
+
+}
+
+/* Large Mobile :350px. */
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+    .data_list_header_action_bar_large{
+        display:none;
+    }
+
+    .v-main__wrap {
+        padding: 10px 10px;
+    }   
+
+    .data_list_header_action_bar_small{
+        display:block !important
+    }
+
+    .data_list_header_action_bar_small .child {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .form-header {
+        height: 155px !important;
+    }
+    .auth-phone-width-text {
+        width: 100%;
+    }
+    .auth-phone-width-img{
+        display: none;
+    }
+
+    .form-body {
+        padding: 0px;
+    }
+    
+}

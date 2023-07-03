@@ -1,0 +1,6 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/chunks/admin/login.js": "/chunks/admin/login.js",
+    "/chunks/admin/dashboard.js": "/chunks/admin/dashboard.js",
+    "/chunks/admin/categories.js": "/chunks/admin/categories.js"
+}
