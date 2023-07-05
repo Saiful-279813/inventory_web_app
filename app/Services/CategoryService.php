@@ -12,7 +12,7 @@ class CategoryService
 {
     public function index(){
         try {
-            $items = Category::orderBy('id','DESC')->get();
+            $items = Category::where('status','active')->orderBy('id','DESC')->get();
             return send_single_data('items',$items,true);
         } catch (\Throwable $th) {
             return send_ms($th->getMessage(),false);
@@ -42,7 +42,7 @@ class CategoryService
     public function update($data,$id){
         $item = Category::findOrFail($id);
         try {
-            $data['create_by_id'] = admin_id();
+            $data['update_by_id'] = admin_id();
             $item->update($data);
             return send_ms('Successfully Updated Item',true);
         } catch (\Throwable $th) {
@@ -61,4 +61,27 @@ class CategoryService
             return send_ms($th->getMessage(),false);
         }
     }
+
+    public function destroy($id){
+        $item = Category::findOrFail($id);
+        try {
+            $item->status = 'delete';
+            $item->update_by_id = admin_id();
+            $item->save();
+            return send_ms('Successfully Deleted Category',true);
+        } catch (\Throwable $th) {
+            return send_ms($th->getMessage(),false);
+        }
+    }
+
+    public function categoryList(){
+        try {
+            $category_list = Category::where('status','active')->select('id','name_en','name_bn')->orderBy('id','DESC')->get();
+            return send_single_data('category_list',$category_list,true);
+        } catch (\Throwable $th) {
+            return send_ms($th->getMessage(),false);
+        }
+    }
+
+
 }

@@ -5,13 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class Brand extends Model
 {
     use HasFactory;
-    protected $table = 'categories';
+    protected $table = "brands";
     protected $fillable = [
-        'id', 'name_en', 'name_bn', 'status', 'create_by_id', 'update_by_id', 'created_at', 'updated_at'
+        'id', 'category_id', 'name_en', 'name_bn', 'status', 'create_by_id', 'update_by_id', 'created_at', 'updated_at'
     ];
+
+    public function category(){
+        return $this->belongsTo(Category::class,'category_id','id')->select('id','name_en','name_bn');
+    }
 
     public function createdBy(){
         return $this->belongsTo(Admin::class,'create_by_id','id')->select('id','name','phone');
@@ -20,4 +24,6 @@ class Category extends Model
     public function updatedBy(){
         return $this->belongsTo(Admin::class,'update_by_id','id')->select('id','name','phone');
     }
+
+
 }

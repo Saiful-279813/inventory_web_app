@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Services\CategoryService;
+use App\Services\BrandService;
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class BrandController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return (new CategoryService())->index();
+        return (new BrandService())->index();
     }
 
     /**
@@ -27,10 +27,11 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         $data = $request->validate([
-            'name_en' => 'required|max:150',
-            'name_bn' => 'required|max:150',
+            'category_id' => 'required',
+            'name_en' => 'required|max:180|unique:brands,name_en',
+            'name_bn' => 'required|max:180|unique:brands,name_bn',
         ]);
-        return (new CategoryService())->store($data);
+        return (new BrandService())->store($data);
     }
 
     /**
@@ -41,7 +42,7 @@ class CategoryController extends Controller
      */
     public function show($id)
     {
-        return (new CategoryService())->show($id);
+        return (new BrandService())->show($id);
     }
 
     /**
@@ -54,22 +55,23 @@ class CategoryController extends Controller
     public function update(Request $request, $id)
     {
         $data = $request->validate([
-            'name_en' => 'required|max:150',
-            'name_bn' => 'required|max:150',
+            'category_id' => 'required',
+            'name_en' => 'required|max:180|unique:brands,name_en,' .$id,
+            'name_bn' => 'required|max:180|unique:brands,name_bn,' .$id,
         ]);
-        return (new CategoryService())->update($data,$id);
+        return (new BrandService())->update($data,$id);
     }
 
     /**
-     * active inactive the specified resource from storage.
+     * Active Inactive the specified resource from storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function activeInactive($id){
-        return (new CategoryService())->activeInactive($id);
+    public function activeInactive($id)
+    {
+        return (new BrandService())->activeInactive($id);
     }
-
     /**
      * Remove the specified resource from storage.
      *
@@ -78,17 +80,27 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        return (new CategoryService())->destroy($id);
+        return (new BrandService())->destroy($id);
+    }
+    /**
+     * Brand Short List the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function brandList()
+    {
+        return (new BrandService())->brandList();
     }
 
     /**
-     * Display a listing of the resource.
+     * Category Wise Brand List the specified resource from storage.
      *
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function categoryList(){
-        return (new CategoryService())->categoryList();
+    public function categoryWiseBrandList($id)
+    {
+        return (new BrandService())->categoryWiseBrandList($id);
     }
-
-    //===================== end =======================
 }

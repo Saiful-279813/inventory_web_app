@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class Thickness extends Model
 {
     use HasFactory;
-    protected $table = 'categories';
+    protected $table = "thicknesses";
     protected $fillable = [
-        'id', 'name_en', 'name_bn', 'status', 'create_by_id', 'update_by_id', 'created_at', 'updated_at'
+        'id', 'category_id', 'brand_id', 'size_id', 'name_en', 'name_bn', 'status', 'create_by_id', 'update_by_id', 'created_at', 'updated_at'
     ];
 
     public function createdBy(){
