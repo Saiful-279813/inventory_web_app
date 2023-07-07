@@ -17,43 +17,43 @@ class DivisionSeeder extends Seeder
         Division::insert([
             [
                 "id"=> 1,
-                "name"=> "Dhaka",
-                "bn_name"=> "ঢাকা"
+                "name_en"=> "Dhaka",
+                "name_bn"=> "ঢাকা"
             ],
             [
                 "id"=> 2,
-                "name"=> "Chittagong",
-                "bn_name"=> "চট্টগ্রাম"
+                "name_en"=> "Chittagong",
+                "name_bn"=> "চট্টগ্রাম"
             ],
             [
                 "id"=> 3,
-                "name"=> "Rajshahi",
-                "bn_name"=> "রাজশাহী"
+                "name_en"=> "Rajshahi",
+                "name_bn"=> "রাজশাহী"
             ],
             [
                 "id"=> 4,
-                "name"=> "Khulna",
-                "bn_name"=> "খুলনা"
+                "name_en"=> "Khulna",
+                "name_bn"=> "খুলনা"
             ],
             [
                 "id"=> 5,
-                "name"=> "Barisal",
-                "bn_name"=> "বরিশাল"
+                "name_en"=> "Barisal",
+                "name_bn"=> "বরিশাল"
             ],
             [
                 "id"=> 6,
-                "name"=> "Rangpur",
-                "bn_name"=> "রংপুর"
+                "name_en"=> "Rangpur",
+                "name_bn"=> "রংপুর"
             ],
             [
                 "id"=> 7,
-                "name"=> "Sylhet",
-                "bn_name"=> "সিলেট"
+                "name_en"=> "Sylhet",
+                "name_bn"=> "সিলেট"
             ],
             [
                 "id"=> 8,
-                "name"=> "Mymensingh",
-                "bn_name"=> "ময়মনসিংহ"
+                "name_en"=> "Mymensingh",
+                "name_bn"=> "ময়মনসিংহ"
             ],
         ]);
     }

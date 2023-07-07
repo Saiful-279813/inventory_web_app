@@ -17,6 +17,9 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         DB::beginTransaction();
         $this->call(AuthenticateSeeder::class);
+        $this->call(DivisionSeeder::class);
+        $this->call(DistrictSeeder::class);
+        $this->call(ThanaSeeder::class);
         DB::commit();
     }
 }

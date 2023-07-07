@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Thana;
+use App\Models\Upazila;
 use Illuminate\Database\Seeder;
 
 class ThanaSeeder extends Seeder
@@ -14,2952 +14,2952 @@ class ThanaSeeder extends Seeder
      */
     public function run()
     {
-        Thana::insert([
+        Upazila::insert([
             [
                 "id"=> 1,
                 "district_id"=> 1,
-                "name"=> "Belabo",
-                "bn_name"=> "বেলাবো"
+                "name_en"=> "Belabo",
+                "name_bn"=> "বেলাবো"
             ],
             [
                 "id"=> 2,
                 "district_id"=> 1,
-                "name"=> "Monohardi",
-                "bn_name"=> "মনোহরদী"
+                "name_en"=> "Monohardi",
+                "name_bn"=> "মনোহরদী"
             ],
             [
                 "id"=> 3,
                 "district_id"=> 1,
-                "name"=> "Narsingdi Sadar",
-                "bn_name"=> "নরসিংদী সদর"
+                "name_en"=> "Narsingdi Sadar",
+                "name_bn"=> "নরসিংদী সদর"
             ],
             [
                 "id"=> 4,
                 "district_id"=> 1,
-                "name"=> "Palash",
-                "bn_name"=> "পলাশ"
+                "name_en"=> "Palash",
+                "name_bn"=> "পলাশ"
             ],
             [
                 "id"=> 5,
                 "district_id"=> 1,
-                "name"=> "Raipura",
-                "bn_name"=> "রায়পুরা"
+                "name_en"=> "Raipura",
+                "name_bn"=> "রায়পুরা"
             ],
             [
                 "id"=> 6,
                 "district_id"=> 1,
-                "name"=> "Shibpur",
-                "bn_name"=> "শিবপুর"
+                "name_en"=> "Shibpur",
+                "name_bn"=> "শিবপুর"
             ],
             [
                 "id"=> 7,
                 "district_id"=> 2,
-                "name"=> "Kaliganj",
-                "bn_name"=> "কালীগঞ্জ"
+                "name_en"=> "Kaliganj",
+                "name_bn"=> "কালীগঞ্জ"
             ],
             [
                 "id"=> 8,
                 "district_id"=> 2,
-                "name"=> "Kaliakair",
-                "bn_name"=> "কালিয়াকৈর"
+                "name_en"=> "Kaliakair",
+                "name_bn"=> "কালিয়াকৈর"
             ],
             [
                 "id"=> 9,
                 "district_id"=> 2,
-                "name"=> "Kapasia",
-                "bn_name"=> "কাপাসিয়া"
+                "name_en"=> "Kapasia",
+                "name_bn"=> "কাপাসিয়া"
             ],
             [
                 "id"=> 10,
                 "district_id"=> 2,
-                "name"=> "Gazipur Sadar",
-                "bn_name"=> "গাজীপুর সদর"
+                "name_en"=> "Gazipur Sadar",
+                "name_bn"=> "গাজীপুর সদর"
             ],
             [
                 "id"=> 11,
                 "district_id"=> 2,
-                "name"=> "Sreepur",
-                "bn_name"=> "শ্রীপুর"
+                "name_en"=> "Sreepur",
+                "name_bn"=> "শ্রীপুর"
             ],
             [
                 "id"=> 12,
                 "district_id"=> 3,
-                "name"=> "Shariatpur Sadar",
-                "bn_name"=> "শরিয়তপুর সদর"
+                "name_en"=> "Shariatpur Sadar",
+                "name_bn"=> "শরিয়তপুর সদর"
             ],
             [
                 "id"=> 13,
                 "district_id"=> 3,
-                "name"=> "Naria",
-                "bn_name"=> "নড়িয়া"
+                "name_en"=> "Naria",
+                "name_bn"=> "নড়িয়া"
             ],
             [
                 "id"=> 14,
                 "district_id"=> 3,
-                "name"=> "Zajira",
-                "bn_name"=> "জাজিরা"
+                "name_en"=> "Zajira",
+                "name_bn"=> "জাজিরা"
             ],
             [
                 "id"=> 15,
                 "district_id"=> 3,
-                "name"=> "Gosairhat",
-                "bn_name"=> "গোসাইরহাট"
+                "name_en"=> "Gosairhat",
+                "name_bn"=> "গোসাইরহাট"
             ],
             [
                 "id"=> 16,
                 "district_id"=> 3,
-                "name"=> "Bhedarganj",
-                "bn_name"=> "ভেদরগঞ্জ"
+                "name_en"=> "Bhedarganj",
+                "name_bn"=> "ভেদরগঞ্জ"
             ],
             [
                 "id"=> 17,
                 "district_id"=> 3,
-                "name"=> "Damudya",
-                "bn_name"=> "ডামুড্যা"
+                "name_en"=> "Damudya",
+                "name_bn"=> "ডামুড্যা"
             ],
             [
                 "id"=> 18,
                 "district_id"=> 4,
-                "name"=> "Araihazar",
-                "bn_name"=> "আড়াইহাজার"
+                "name_en"=> "Araihazar",
+                "name_bn"=> "আড়াইহাজার"
             ],
             [
                 "id"=> 19,
                 "district_id"=> 4,
-                "name"=> "Bandar",
-                "bn_name"=> "বন্দর"
+                "name_en"=> "Bandar",
+                "name_bn"=> "বন্দর"
             ],
             [
                 "id"=> 20,
                 "district_id"=> 4,
-                "name"=> "Narayanganj Sadar",
-                "bn_name"=> "নারায়নগঞ্জ সদর"
+                "name_en"=> "Narayanganj Sadar",
+                "name_bn"=> "নারায়নগঞ্জ সদর"
             ],
             [
                 "id"=> 21,
                 "district_id"=> 4,
-                "name"=> "Rupganj",
-                "bn_name"=> "রূপগঞ্জ"
+                "name_en"=> "Rupganj",
+                "name_bn"=> "রূপগঞ্জ"
             ],
             [
                 "id"=> 22,
                 "district_id"=> 4,
-                "name"=> "Sonargaon",
-                "bn_name"=> "সোনারগাঁ"
+                "name_en"=> "Sonargaon",
+                "name_bn"=> "সোনারগাঁ"
             ],
             [
                 "id"=> 23,
                 "district_id"=> 5,
-                "name"=> "Basail",
-                "bn_name"=> "বাসাইল"
+                "name_en"=> "Basail",
+                "name_bn"=> "বাসাইল"
             ],
             [
                 "id"=> 24,
                 "district_id"=> 5,
-                "name"=> "Bhuapur",
-                "bn_name"=> "ভুয়াপুর"
+                "name_en"=> "Bhuapur",
+                "name_bn"=> "ভুয়াপুর"
             ],
             [
                 "id"=> 25,
                 "district_id"=> 5,
-                "name"=> "Delduar",
-                "bn_name"=> "দেলদুয়ার"
+                "name_en"=> "Delduar",
+                "name_bn"=> "দেলদুয়ার"
             ],
             [
                 "id"=> 26,
                 "district_id"=> 5,
-                "name"=> "Ghatail",
-                "bn_name"=> "ঘাটাইল"
+                "name_en"=> "Ghatail",
+                "name_bn"=> "ঘাটাইল"
             ],
             [
                 "id"=> 27,
                 "district_id"=> 5,
-                "name"=> "Gopalpur",
-                "bn_name"=> "গোপালপুর"
+                "name_en"=> "Gopalpur",
+                "name_bn"=> "গোপালপুর"
             ],
             [
                 "id"=> 28,
                 "district_id"=> 5,
-                "name"=> "Madhupur",
-                "bn_name"=> "মধুপুর"
+                "name_en"=> "Madhupur",
+                "name_bn"=> "মধুপুর"
             ],
             [
                 "id"=> 29,
                 "district_id"=> 5,
-                "name"=> "Mirzapur",
-                "bn_name"=> "মির্জাপুর"
+                "name_en"=> "Mirzapur",
+                "name_bn"=> "মির্জাপুর"
             ],
             [
                 "id"=> 30,
                 "district_id"=> 5,
-                "name"=> "Nagarpur",
-                "bn_name"=> "নাগরপুর"
+                "name_en"=> "Nagarpur",
+                "name_bn"=> "নাগরপুর"
             ],
             [
                 "id"=> 31,
                 "district_id"=> 5,
-                "name"=> "Sakhipur",
-                "bn_name"=> "সখিপুর"
+                "name_en"=> "Sakhipur",
+                "name_bn"=> "সখিপুর"
             ],
             [
                 "id"=> 32,
                 "district_id"=> 5,
-                "name"=> "Tangail Sadar",
-                "bn_name"=> "টাঙ্গাইল সদর"
+                "name_en"=> "Tangail Sadar",
+                "name_bn"=> "টাঙ্গাইল সদর"
             ],
             [
                 "id"=> 33,
                 "district_id"=> 5,
-                "name"=> "Kalihati",
-                "bn_name"=> "কালিহাতী"
+                "name_en"=> "Kalihati",
+                "name_bn"=> "কালিহাতী"
             ],
             [
                 "id"=> 34,
                 "district_id"=> 5,
-                "name"=> "Dhanbari",
-                "bn_name"=> "ধনবাড়ী"
+                "name_en"=> "Dhanbari",
+                "name_bn"=> "ধনবাড়ী"
             ],
             [
                 "id"=> 35,
                 "district_id"=> 6,
-                "name"=> "Itna",
-                "bn_name"=> "ইটনা"
+                "name_en"=> "Itna",
+                "name_bn"=> "ইটনা"
             ],
             [
                 "id"=> 36,
                 "district_id"=> 6,
-                "name"=> "Katiadi",
-                "bn_name"=> "কটিয়াদী"
+                "name_en"=> "Katiadi",
+                "name_bn"=> "কটিয়াদী"
             ],
             [
                 "id"=> 37,
                 "district_id"=> 6,
-                "name"=> "Bhairab",
-                "bn_name"=> "ভৈরব"
+                "name_en"=> "Bhairab",
+                "name_bn"=> "ভৈরব"
             ],
             [
                 "id"=> 38,
                 "district_id"=> 6,
-                "name"=> "Tarail",
-                "bn_name"=> "তাড়াইল"
+                "name_en"=> "Tarail",
+                "name_bn"=> "তাড়াইল"
             ],
             [
                 "id"=> 39,
                 "district_id"=> 6,
-                "name"=> "Hossainpur",
-                "bn_name"=> "হোসেনপুর"
+                "name_en"=> "Hossainpur",
+                "name_bn"=> "হোসেনপুর"
             ],
             [
                 "id"=> 40,
                 "district_id"=> 6,
-                "name"=> "Pakundia",
-                "bn_name"=> "পাকুন্দিয়া"
+                "name_en"=> "Pakundia",
+                "name_bn"=> "পাকুন্দিয়া"
             ],
             [
                 "id"=> 41,
                 "district_id"=> 6,
-                "name"=> "Kuliarchar",
-                "bn_name"=> "কুলিয়ারচর"
+                "name_en"=> "Kuliarchar",
+                "name_bn"=> "কুলিয়ারচর"
             ],
             [
                 "id"=> 42,
                 "district_id"=> 6,
-                "name"=> "Kishoreganj Sadar",
-                "bn_name"=> "কিশোরগঞ্জ সদর"
+                "name_en"=> "Kishoreganj Sadar",
+                "name_bn"=> "কিশোরগঞ্জ সদর"
             ],
             [
                 "id"=> 43,
                 "district_id"=> 6,
-                "name"=> "Karimgonj",
-                "bn_name"=> "করিমগঞ্জ"
+                "name_en"=> "Karimgonj",
+                "name_bn"=> "করিমগঞ্জ"
             ],
             [
                 "id"=> 44,
                 "district_id"=> 6,
-                "name"=> "Bajitpur",
-                "bn_name"=> "বাজিতপুর"
+                "name_en"=> "Bajitpur",
+                "name_bn"=> "বাজিতপুর"
             ],
             [
                 "id"=> 45,
                 "district_id"=> 6,
-                "name"=> "Austagram",
-                "bn_name"=> "অষ্টগ্রাম"
+                "name_en"=> "Austagram",
+                "name_bn"=> "অষ্টগ্রাম"
             ],
             [
                 "id"=> 46,
                 "district_id"=> 6,
-                "name"=> "Mithamoin",
-                "bn_name"=> "মিঠামইন"
+                "name_en"=> "Mithamoin",
+                "name_bn"=> "মিঠামইন"
             ],
             [
                 "id"=> 47,
                 "district_id"=> 6,
-                "name"=> "Nikli",
-                "bn_name"=> "নিকলী"
+                "name_en"=> "Nikli",
+                "name_bn"=> "নিকলী"
             ],
             [
                 "id"=> 48,
                 "district_id"=> 7,
-                "name"=> "Harirampur",
-                "bn_name"=> "হরিরামপুর"
+                "name_en"=> "Harirampur",
+                "name_bn"=> "হরিরামপুর"
             ],
             [
                 "id"=> 49,
                 "district_id"=> 7,
-                "name"=> "Saturia",
-                "bn_name"=> "সাটুরিয়া"
+                "name_en"=> "Saturia",
+                "name_bn"=> "সাটুরিয়া"
             ],
             [
                 "id"=> 50,
                 "district_id"=> 7,
-                "name"=> "Manikganj Sadar",
-                "bn_name"=> "মানিকগঞ্জ সদর"
+                "name_en"=> "Manikganj Sadar",
+                "name_bn"=> "মানিকগঞ্জ সদর"
             ],
             [
                 "id"=> 51,
                 "district_id"=> 7,
-                "name"=> "Gior",
-                "bn_name"=> "ঘিওর"
+                "name_en"=> "Gior",
+                "name_bn"=> "ঘিওর"
             ],
             [
                 "id"=> 52,
                 "district_id"=> 7,
-                "name"=> "Shibaloy",
-                "bn_name"=> "শিবালয়"
+                "name_en"=> "Shibaloy",
+                "name_bn"=> "শিবালয়"
             ],
             [
                 "id"=> 53,
                 "district_id"=> 7,
-                "name"=> "Doulatpur",
-                "bn_name"=> "দৌলতপুর"
+                "name_en"=> "Doulatpur",
+                "name_bn"=> "দৌলতপুর"
             ],
             [
                 "id"=> 54,
                 "district_id"=> 7,
-                "name"=> "Singiar",
-                "bn_name"=> "সিংগাইর"
+                "name_en"=> "Singiar",
+                "name_bn"=> "সিংগাইর"
             ],
             [
                 "id"=> 55,
                 "district_id"=> 8,
-                "name"=> "Savar",
-                "bn_name"=> "সাভার"
+                "name_en"=> "Savar",
+                "name_bn"=> "সাভার"
             ],
             [
                 "id"=> 56,
                 "district_id"=> 8,
-                "name"=> "Dhamrai",
-                "bn_name"=> "ধামরাই"
+                "name_en"=> "Dhamrai",
+                "name_bn"=> "ধামরাই"
             ],
             [
                 "id"=> 57,
                 "district_id"=> 8,
-                "name"=> "Keraniganj",
-                "bn_name"=> "কেরাণীগঞ্জ"
+                "name_en"=> "Keraniganj",
+                "name_bn"=> "কেরাণীগঞ্জ"
             ],
             [
                 "id"=> 58,
                 "district_id"=> 8,
-                "name"=> "Nawabganj",
-                "bn_name"=> "নবাবগঞ্জ"
+                "name_en"=> "Nawabganj",
+                "name_bn"=> "নবাবগঞ্জ"
             ],
             [
                 "id"=> 59,
                 "district_id"=> 8,
-                "name"=> "Dohar",
-                "bn_name"=> "দোহার"
+                "name_en"=> "Dohar",
+                "name_bn"=> "দোহার"
             ],
             [
                 "id"=> 60,
                 "district_id"=> 9,
-                "name"=> "Munshiganj Sadar",
-                "bn_name"=> "মুন্সিগঞ্জ সদর"
+                "name_en"=> "Munshiganj Sadar",
+                "name_bn"=> "মুন্সিগঞ্জ সদর"
             ],
             [
                 "id"=> 61,
                 "district_id"=> 9,
-                "name"=> "Sreenagar",
-                "bn_name"=> "শ্রীনগর"
+                "name_en"=> "Sreenagar",
+                "name_bn"=> "শ্রীনগর"
             ],
             [
                 "id"=> 62,
                 "district_id"=> 9,
-                "name"=> "Sirajdikhan",
-                "bn_name"=> "সিরাজদিখান"
+                "name_en"=> "Sirajdikhan",
+                "name_bn"=> "সিরাজদিখান"
             ],
             [
                 "id"=> 63,
                 "district_id"=> 9,
-                "name"=> "Louhajanj",
-                "bn_name"=> "লৌহজং"
+                "name_en"=> "Louhajanj",
+                "name_bn"=> "লৌহজং"
             ],
             [
                 "id"=> 64,
                 "district_id"=> 9,
-                "name"=> "Gajaria",
-                "bn_name"=> "গজারিয়া"
+                "name_en"=> "Gajaria",
+                "name_bn"=> "গজারিয়া"
             ],
             [
                 "id"=> 65,
                 "district_id"=> 9,
-                "name"=> "Tongibari",
-                "bn_name"=> "টংগীবাড়ি"
+                "name_en"=> "Tongibari",
+                "name_bn"=> "টংগীবাড়ি"
             ],
             [
                 "id"=> 66,
                 "district_id"=> 10,
-                "name"=> "Rajbari Sadar",
-                "bn_name"=> "রাজবাড়ী সদর"
+                "name_en"=> "Rajbari Sadar",
+                "name_bn"=> "রাজবাড়ী সদর"
             ],
             [
                 "id"=> 67,
                 "district_id"=> 10,
-                "name"=> "Goalanda",
-                "bn_name"=> "গোয়ালন্দ"
+                "name_en"=> "Goalanda",
+                "name_bn"=> "গোয়ালন্দ"
             ],
             [
                 "id"=> 68,
                 "district_id"=> 10,
-                "name"=> "Pangsa",
-                "bn_name"=> "পাংশা"
+                "name_en"=> "Pangsa",
+                "name_bn"=> "পাংশা"
             ],
             [
                 "id"=> 69,
                 "district_id"=> 10,
-                "name"=> "Baliakandi",
-                "bn_name"=> "বালিয়াকান্দি"
+                "name_en"=> "Baliakandi",
+                "name_bn"=> "বালিয়াকান্দি"
             ],
             [
                 "id"=> 70,
                 "district_id"=> 10,
-                "name"=> "Kalukhali",
-                "bn_name"=> "কালুখালী"
+                "name_en"=> "Kalukhali",
+                "name_bn"=> "কালুখালী"
             ],
             [
                 "id"=> 71,
                 "district_id"=> 11,
-                "name"=> "Madaripur Sadar",
-                "bn_name"=> "মাদারীপুর সদর"
+                "name_en"=> "Madaripur Sadar",
+                "name_bn"=> "মাদারীপুর সদর"
             ],
             [
                 "id"=> 72,
                 "district_id"=> 11,
-                "name"=> "Shibchar",
-                "bn_name"=> "শিবচর"
+                "name_en"=> "Shibchar",
+                "name_bn"=> "শিবচর"
             ],
             [
                 "id"=> 73,
                 "district_id"=> 11,
-                "name"=> "Kalkini",
-                "bn_name"=> "কালকিনি"
+                "name_en"=> "Kalkini",
+                "name_bn"=> "কালকিনি"
             ],
             [
                 "id"=> 74,
                 "district_id"=> 11,
-                "name"=> "Rajoir",
-                "bn_name"=> "রাজৈর"
+                "name_en"=> "Rajoir",
+                "name_bn"=> "রাজৈর"
             ],
             [
                 "id"=> 75,
                 "district_id"=> 12,
-                "name"=> "Gopalganj Sadar",
-                "bn_name"=> "গোপালগঞ্জ সদর"
+                "name_en"=> "Gopalganj Sadar",
+                "name_bn"=> "গোপালগঞ্জ সদর"
             ],
             [
                 "id"=> 76,
                 "district_id"=> 12,
-                "name"=> "Kashiani",
-                "bn_name"=> "কাশিয়ানী"
+                "name_en"=> "Kashiani",
+                "name_bn"=> "কাশিয়ানী"
             ],
             [
                 "id"=> 77,
                 "district_id"=> 12,
-                "name"=> "Tungipara",
-                "bn_name"=> "টুংগীপাড়া"
+                "name_en"=> "Tungipara",
+                "name_bn"=> "টুংগীপাড়া"
             ],
             [
                 "id"=> 78,
                 "district_id"=> 12,
-                "name"=> "Kotalipara",
-                "bn_name"=> "কোটালীপাড়া"
+                "name_en"=> "Kotalipara",
+                "name_bn"=> "কোটালীপাড়া"
             ],
             [
                 "id"=> 79,
                 "district_id"=> 12,
-                "name"=> "Muksudpur",
-                "bn_name"=> "মুকসুদপুর"
+                "name_en"=> "Muksudpur",
+                "name_bn"=> "মুকসুদপুর"
             ],
             [
                 "id"=> 80,
                 "district_id"=> 13,
-                "name"=> "Faridpur Sadar",
-                "bn_name"=> "ফরিদপুর সদর"
+                "name_en"=> "Faridpur Sadar",
+                "name_bn"=> "ফরিদপুর সদর"
             ],
             [
                 "id"=> 81,
                 "district_id"=> 13,
-                "name"=> "Alfadanga",
-                "bn_name"=> "আলফাডাঙ্গা"
+                "name_en"=> "Alfadanga",
+                "name_bn"=> "আলফাডাঙ্গা"
             ],
             [
                 "id"=> 82,
                 "district_id"=> 13,
-                "name"=> "Boalmari",
-                "bn_name"=> "বোয়ালমারী"
+                "name_en"=> "Boalmari",
+                "name_bn"=> "বোয়ালমারী"
             ],
             [
                 "id"=> 83,
                 "district_id"=> 13,
-                "name"=> "Sadarpur",
-                "bn_name"=> "সদরপুর"
+                "name_en"=> "Sadarpur",
+                "name_bn"=> "সদরপুর"
             ],
             [
                 "id"=> 84,
                 "district_id"=> 13,
-                "name"=> "Nagarkanda",
-                "bn_name"=> "নগরকান্দা"
+                "name_en"=> "Nagarkanda",
+                "name_bn"=> "নগরকান্দা"
             ],
             [
                 "id"=> 85,
                 "district_id"=> 13,
-                "name"=> "Bhanga",
-                "bn_name"=> "ভাঙ্গা"
+                "name_en"=> "Bhanga",
+                "name_bn"=> "ভাঙ্গা"
             ],
             [
                 "id"=> 86,
                 "district_id"=> 13,
-                "name"=> "Charbhadrasan",
-                "bn_name"=> "চরভদ্রাসন"
+                "name_en"=> "Charbhadrasan",
+                "name_bn"=> "চরভদ্রাসন"
             ],
             [
                 "id"=> 87,
                 "district_id"=> 13,
-                "name"=> "Madhukhali",
-                "bn_name"=> "মধুখালী"
+                "name_en"=> "Madhukhali",
+                "name_bn"=> "মধুখালী"
             ],
             [
                 "id"=> 88,
                 "district_id"=> 13,
-                "name"=> "Saltha",
-                "bn_name"=> "সালথা"
+                "name_en"=> "Saltha",
+                "name_bn"=> "সালথা"
             ],
             [
                 "id"=> 89,
                 "district_id"=> 14,
-                "name"=> "Debidwar",
-                "bn_name"=> "দেবিদ্বার"
+                "name_en"=> "Debidwar",
+                "name_bn"=> "দেবিদ্বার"
             ],
             [
                 "id"=> 90,
                 "district_id"=> 14,
-                "name"=> "Barura",
-                "bn_name"=> "বরুড়া"
+                "name_en"=> "Barura",
+                "name_bn"=> "বরুড়া"
             ],
             [
                 "id"=> 91,
                 "district_id"=> 14,
-                "name"=> "Brahmanpara",
-                "bn_name"=> "ব্রাহ্মণপাড়া"
+                "name_en"=> "Brahmanpara",
+                "name_bn"=> "ব্রাহ্মণপাড়া"
             ],
             [
                 "id"=> 92,
                 "district_id"=> 14,
-                "name"=> "Chandina",
-                "bn_name"=> "চান্দিনা"
+                "name_en"=> "Chandina",
+                "name_bn"=> "চান্দিনা"
             ],
             [
                 "id"=> 93,
                 "district_id"=> 14,
-                "name"=> "Chauddagram",
-                "bn_name"=> "চৌদ্দগ্রাম"
+                "name_en"=> "Chauddagram",
+                "name_bn"=> "চৌদ্দগ্রাম"
             ],
             [
                 "id"=> 94,
                 "district_id"=> 14,
-                "name"=> "Daudkandi",
-                "bn_name"=> "দাউদকান্দি"
+                "name_en"=> "Daudkandi",
+                "name_bn"=> "দাউদকান্দি"
             ],
             [
                 "id"=> 95,
                 "district_id"=> 14,
-                "name"=> "Homna",
-                "bn_name"=> "হোমনা"
+                "name_en"=> "Homna",
+                "name_bn"=> "হোমনা"
             ],
             [
                 "id"=> 96,
                 "district_id"=> 14,
-                "name"=> "Laksam",
-                "bn_name"=> "লাকসাম"
+                "name_en"=> "Laksam",
+                "name_bn"=> "লাকসাম"
             ],
             [
                 "id"=> 97,
                 "district_id"=> 14,
-                "name"=> "Muradnagar",
-                "bn_name"=> "মুরাদনগর"
+                "name_en"=> "Muradnagar",
+                "name_bn"=> "মুরাদনগর"
             ],
             [
                 "id"=> 98,
                 "district_id"=> 14,
-                "name"=> "Nangalkot",
-                "bn_name"=> "নাঙ্গলকোট"
+                "name_en"=> "Nangalkot",
+                "name_bn"=> "নাঙ্গলকোট"
             ],
             [
                 "id"=> 99,
                 "district_id"=> 14,
-                "name"=> "Comilla Sadar",
-                "bn_name"=> "কুমিল্লা সদর"
+                "name_en"=> "Comilla Sadar",
+                "name_bn"=> "কুমিল্লা সদর"
             ],
             [
                 "id"=> 100,
                 "district_id"=> 14,
-                "name"=> "Meghna",
-                "bn_name"=> "মেঘনা"
+                "name_en"=> "Meghna",
+                "name_bn"=> "মেঘনা"
             ],
             [
                 "id"=> 101,
                 "district_id"=> 14,
-                "name"=> "Monohargonj",
-                "bn_name"=> "মনোহরগঞ্জ"
+                "name_en"=> "Monohargonj",
+                "name_bn"=> "মনোহরগঞ্জ"
             ],
             [
                 "id"=> 102,
                 "district_id"=> 14,
-                "name"=> "South Sadar",
-                "bn_name"=> "দক্ষিণ সদর"
+                "name_en"=> "South Sadar",
+                "name_bn"=> "দক্ষিণ সদর"
             ],
             [
                 "id"=> 103,
                 "district_id"=> 14,
-                "name"=> "Titas",
-                "bn_name"=> "তিতাস"
+                "name_en"=> "Titas",
+                "name_bn"=> "তিতাস"
             ],
             [
                 "id"=> 104,
                 "district_id"=> 14,
-                "name"=> "Burichang",
-                "bn_name"=> "বুড়িচং"
+                "name_en"=> "Burichang",
+                "name_bn"=> "বুড়িচং"
             ],
             [
                 "id"=> 105,
                 "district_id"=> 14,
-                "name"=> "Lalmai",
-                "bn_name"=> "লালমাই"
+                "name_en"=> "Lalmai",
+                "name_bn"=> "লালমাই"
             ],
             [
                 "id"=> 106,
                 "district_id"=> 15,
-                "name"=> "Chhagalnaiya",
-                "bn_name"=> "ছাগলনাইয়া"
+                "name_en"=> "Chhagalnaiya",
+                "name_bn"=> "ছাগলনাইয়া"
             ],
             [
                 "id"=> 107,
                 "district_id"=> 15,
-                "name"=> "Feni Sadar",
-                "bn_name"=> "ফেনী সদর"
+                "name_en"=> "Feni Sadar",
+                "name_bn"=> "ফেনী সদর"
             ],
             [
                 "id"=> 108,
                 "district_id"=> 15,
-                "name"=> "Sonagazi",
-                "bn_name"=> "সোনাগাজী"
+                "name_en"=> "Sonagazi",
+                "name_bn"=> "সোনাগাজী"
             ],
             [
                 "id"=> 109,
                 "district_id"=> 15,
-                "name"=> "Fulgazi",
-                "bn_name"=> "ফুলগাজী"
+                "name_en"=> "Fulgazi",
+                "name_bn"=> "ফুলগাজী"
             ],
             [
                 "id"=> 110,
                 "district_id"=> 15,
-                "name"=> "Parshuram",
-                "bn_name"=> "পরশুরাম"
+                "name_en"=> "Parshuram",
+                "name_bn"=> "পরশুরাম"
             ],
             [
                 "id"=> 111,
                 "district_id"=> 15,
-                "name"=> "Daganbhuiyan",
-                "bn_name"=> "দাগনভূঞা"
+                "name_en"=> "Daganbhuiyan",
+                "name_bn"=> "দাগনভূঞা"
             ],
             [
                 "id"=> 112,
                 "district_id"=> 16,
-                "name"=> "Brahmanbaria Sadar",
-                "bn_name"=> "ব্রাহ্মণবাড়িয়া সদর"
+                "name_en"=> "Brahmanbaria Sadar",
+                "name_bn"=> "ব্রাহ্মণবাড়িয়া সদর"
             ],
             [
                 "id"=> 113,
                 "district_id"=> 16,
-                "name"=> "Kasba",
-                "bn_name"=> "কসবা"
+                "name_en"=> "Kasba",
+                "name_bn"=> "কসবা"
             ],
             [
                 "id"=> 114,
                 "district_id"=> 16,
-                "name"=> "Nasirnagar",
-                "bn_name"=> "নাসিরনগর"
+                "name_en"=> "Nasirnagar",
+                "name_bn"=> "নাসিরনগর"
             ],
             [
                 "id"=> 115,
                 "district_id"=> 16,
-                "name"=> "Sarail",
-                "bn_name"=> "সরাইল"
+                "name_en"=> "Sarail",
+                "name_bn"=> "সরাইল"
             ],
             [
                 "id"=> 116,
                 "district_id"=> 16,
-                "name"=> "Ashuganj",
-                "bn_name"=> "আশুগঞ্জ"
+                "name_en"=> "Ashuganj",
+                "name_bn"=> "আশুগঞ্জ"
             ],
             [
                 "id"=> 117,
                 "district_id"=> 16,
-                "name"=> "Akhaura",
-                "bn_name"=> "আখাউড়া"
+                "name_en"=> "Akhaura",
+                "name_bn"=> "আখাউড়া"
             ],
             [
                 "id"=> 118,
                 "district_id"=> 16,
-                "name"=> "Nabinagar",
-                "bn_name"=> "নবীনগর"
+                "name_en"=> "Nabinagar",
+                "name_bn"=> "নবীনগর"
             ],
             [
                 "id"=> 119,
                 "district_id"=> 16,
-                "name"=> "Bancharampur",
-                "bn_name"=> "বাঞ্ছারামপুর"
+                "name_en"=> "Bancharampur",
+                "name_bn"=> "বাঞ্ছারামপুর"
             ],
             [
                 "id"=> 120,
                 "district_id"=> 16,
-                "name"=> "Bijoynagar",
-                "bn_name"=> "বিজয়নগর"
+                "name_en"=> "Bijoynagar",
+                "name_bn"=> "বিজয়নগর"
             ],
             [
                 "id"=> 121,
                 "district_id"=> 17,
-                "name"=> "Rangamati Sadar",
-                "bn_name"=> "রাঙ্গামাটি সদর"
+                "name_en"=> "Rangamati Sadar",
+                "name_bn"=> "রাঙ্গামাটি সদর"
             ],
             [
                 "id"=> 122,
                 "district_id"=> 17,
-                "name"=> "Kaptai",
-                "bn_name"=> "কাপ্তাই"
+                "name_en"=> "Kaptai",
+                "name_bn"=> "কাপ্তাই"
             ],
             [
                 "id"=> 123,
                 "district_id"=> 17,
-                "name"=> "Kawkhali",
-                "bn_name"=> "কাউখালী"
+                "name_en"=> "Kawkhali",
+                "name_bn"=> "কাউখালী"
             ],
             [
                 "id"=> 124,
                 "district_id"=> 17,
-                "name"=> "Baghaichari",
-                "bn_name"=> "বাঘাইছড়ি"
+                "name_en"=> "Baghaichari",
+                "name_bn"=> "বাঘাইছড়ি"
             ],
             [
                 "id"=> 125,
                 "district_id"=> 17,
-                "name"=> "Barkal",
-                "bn_name"=> "বরকল"
+                "name_en"=> "Barkal",
+                "name_bn"=> "বরকল"
             ],
             [
                 "id"=> 126,
                 "district_id"=> 17,
-                "name"=> "Langadu",
-                "bn_name"=> "লংগদু"
+                "name_en"=> "Langadu",
+                "name_bn"=> "লংগদু"
             ],
             [
                 "id"=> 127,
                 "district_id"=> 17,
-                "name"=> "Rajasthali",
-                "bn_name"=> "রাজস্থলী"
+                "name_en"=> "Rajasthali",
+                "name_bn"=> "রাজস্থলী"
             ],
             [
                 "id"=> 128,
                 "district_id"=> 17,
-                "name"=> "Belaichari",
-                "bn_name"=> "বিলাইছড়ি"
+                "name_en"=> "Belaichari",
+                "name_bn"=> "বিলাইছড়ি"
             ],
             [
                 "id"=> 129,
                 "district_id"=> 17,
-                "name"=> "Juraichari",
-                "bn_name"=> "জুরাছড়ি"
+                "name_en"=> "Juraichari",
+                "name_bn"=> "জুরাছড়ি"
             ],
             [
                 "id"=> 130,
                 "district_id"=> 17,
-                "name"=> "Naniarchar",
-                "bn_name"=> "নানিয়ারচর"
+                "name_en"=> "Naniarchar",
+                "name_bn"=> "নানিয়ারচর"
             ],
             [
                 "id"=> 131,
                 "district_id"=> 18,
-                "name"=> "Noakhali Sadar",
-                "bn_name"=> "নোয়াখালী সদর"
+                "name_en"=> "Noakhali Sadar",
+                "name_bn"=> "নোয়াখালী সদর"
             ],
             [
                 "id"=> 132,
                 "district_id"=> 18,
-                "name"=> "Companiganj",
-                "bn_name"=> "কোম্পানীগঞ্জ"
+                "name_en"=> "Companiganj",
+                "name_bn"=> "কোম্পানীগঞ্জ"
             ],
             [
                 "id"=> 133,
                 "district_id"=> 18,
-                "name"=> "Begumganj",
-                "bn_name"=> "বেগমগঞ্জ"
+                "name_en"=> "Begumganj",
+                "name_bn"=> "বেগমগঞ্জ"
             ],
             [
                 "id"=> 134,
                 "district_id"=> 18,
-                "name"=> "Hatia",
-                "bn_name"=> "হাতিয়া"
+                "name_en"=> "Hatia",
+                "name_bn"=> "হাতিয়া"
             ],
             [
                 "id"=> 135,
                 "district_id"=> 18,
-                "name"=> "Subarnachar",
-                "bn_name"=> "সুবর্ণচর"
+                "name_en"=> "Subarnachar",
+                "name_bn"=> "সুবর্ণচর"
             ],
             [
                 "id"=> 136,
                 "district_id"=> 18,
-                "name"=> "Kabirhat",
-                "bn_name"=> "কবিরহাট"
+                "name_en"=> "Kabirhat",
+                "name_bn"=> "কবিরহাট"
             ],
             [
                 "id"=> 137,
                 "district_id"=> 18,
-                "name"=> "Senbug",
-                "bn_name"=> "সেনবাগ"
+                "name_en"=> "Senbug",
+                "name_bn"=> "সেনবাগ"
             ],
             [
                 "id"=> 138,
                 "district_id"=> 18,
-                "name"=> "Chatkhil",
-                "bn_name"=> "চাটখিল"
+                "name_en"=> "Chatkhil",
+                "name_bn"=> "চাটখিল"
             ],
             [
                 "id"=> 139,
                 "district_id"=> 18,
-                "name"=> "Sonaimori",
-                "bn_name"=> "সোনাইমুড়ী"
+                "name_en"=> "Sonaimori",
+                "name_bn"=> "সোনাইমুড়ী"
             ],
             [
                 "id"=> 140,
                 "district_id"=> 19,
-                "name"=> "Haimchar",
-                "bn_name"=> "হাইমচর"
+                "name_en"=> "Haimchar",
+                "name_bn"=> "হাইমচর"
             ],
             [
                 "id"=> 141,
                 "district_id"=> 19,
-                "name"=> "Kachua",
-                "bn_name"=> "কচুয়া"
+                "name_en"=> "Kachua",
+                "name_bn"=> "কচুয়া"
             ],
             [
                 "id"=> 142,
                 "district_id"=> 19,
-                "name"=> "Shahrasti",
-                "bn_name"=> "শাহরাস্তি"
+                "name_en"=> "Shahrasti",
+                "name_bn"=> "শাহরাস্তি"
             ],
             [
                 "id"=> 143,
                 "district_id"=> 19,
-                "name"=> "Chandpur Sadar",
-                "bn_name"=> "চাঁদপুর সদর"
+                "name_en"=> "Chandpur Sadar",
+                "name_bn"=> "চাঁদপুর সদর"
             ],
             [
                 "id"=> 144,
                 "district_id"=> 19,
-                "name"=> "South Matlab",
-                "bn_name"=> "দক্ষিণ মতলব"
+                "name_en"=> "South Matlab",
+                "name_bn"=> "দক্ষিণ মতলব"
             ],
             [
                 "id"=> 145,
                 "district_id"=> 19,
-                "name"=> "Hajiganj",
-                "bn_name"=> "হাজীগঞ্জ"
+                "name_en"=> "Hajiganj",
+                "name_bn"=> "হাজীগঞ্জ"
             ],
             [
                 "id"=> 146,
                 "district_id"=> 19,
-                "name"=> "North Matlab",
-                "bn_name"=> "উত্তর মতলব"
+                "name_en"=> "North Matlab",
+                "name_bn"=> "উত্তর মতলব"
             ],
             [
                 "id"=> 147,
                 "district_id"=> 19,
-                "name"=> "Faridgonj",
-                "bn_name"=> "ফরিদগঞ্জ"
+                "name_en"=> "Faridgonj",
+                "name_bn"=> "ফরিদগঞ্জ"
             ],
             [
                 "id"=> 148,
                 "district_id"=> 20,
-                "name"=> "Lakshmipur Sadar",
-                "bn_name"=> "লক্ষ্মীপুর সদর"
+                "name_en"=> "Lakshmipur Sadar",
+                "name_bn"=> "লক্ষ্মীপুর সদর"
             ],
             [
                 "id"=> 149,
                 "district_id"=> 20,
-                "name"=> "Kamalnagar",
-                "bn_name"=> "কমলনগর"
+                "name_en"=> "Kamalnagar",
+                "name_bn"=> "কমলনগর"
             ],
             [
                 "id"=> 150,
                 "district_id"=> 20,
-                "name"=> "Raipur",
-                "bn_name"=> "রায়পুর"
+                "name_en"=> "Raipur",
+                "name_bn"=> "রায়পুর"
             ],
             [
                 "id"=> 151,
                 "district_id"=> 20,
-                "name"=> "Ramgati",
-                "bn_name"=> "রামগতি"
+                "name_en"=> "Ramgati",
+                "name_bn"=> "রামগতি"
             ],
             [
                 "id"=> 152,
                 "district_id"=> 20,
-                "name"=> "Ramganj",
-                "bn_name"=> "রামগঞ্জ"
+                "name_en"=> "Ramganj",
+                "name_bn"=> "রামগঞ্জ"
             ],
             [
                 "id"=> 153,
                 "district_id"=> 21,
-                "name"=> "Rangunia",
-                "bn_name"=> "রাঙ্গুনিয়া"
+                "name_en"=> "Rangunia",
+                "name_bn"=> "রাঙ্গুনিয়া"
             ],
             [
                 "id"=> 154,
                 "district_id"=> 21,
-                "name"=> "Sitakunda",
-                "bn_name"=> "সীতাকুন্ড"
+                "name_en"=> "Sitakunda",
+                "name_bn"=> "সীতাকুন্ড"
             ],
             [
                 "id"=> 155,
                 "district_id"=> 21,
-                "name"=> "Mirsharai",
-                "bn_name"=> "মীরসরাই"
+                "name_en"=> "Mirsharai",
+                "name_bn"=> "মীরসরাই"
             ],
             [
                 "id"=> 156,
                 "district_id"=> 21,
-                "name"=> "Patiya",
-                "bn_name"=> "পটিয়া"
+                "name_en"=> "Patiya",
+                "name_bn"=> "পটিয়া"
             ],
             [
                 "id"=> 157,
                 "district_id"=> 21,
-                "name"=> "Sandwip",
-                "bn_name"=> "সন্দ্বীপ"
+                "name_en"=> "Sandwip",
+                "name_bn"=> "সন্দ্বীপ"
             ],
             [
                 "id"=> 158,
                 "district_id"=> 21,
-                "name"=> "Banshkhali",
-                "bn_name"=> "বাঁশখালী"
+                "name_en"=> "Banshkhali",
+                "name_bn"=> "বাঁশখালী"
             ],
             [
                 "id"=> 159,
                 "district_id"=> 21,
-                "name"=> "Boalkhali",
-                "bn_name"=> "বোয়ালখালী"
+                "name_en"=> "Boalkhali",
+                "name_bn"=> "বোয়ালখালী"
             ],
             [
                 "id"=> 160,
                 "district_id"=> 21,
-                "name"=> "Anwara",
-                "bn_name"=> "আনোয়ারা"
+                "name_en"=> "Anwara",
+                "name_bn"=> "আনোয়ারা"
             ],
             [
                 "id"=> 161,
                 "district_id"=> 21,
-                "name"=> "Chandanaish",
-                "bn_name"=> "চন্দনাইশ"
+                "name_en"=> "Chandanaish",
+                "name_bn"=> "চন্দনাইশ"
             ],
             [
                 "id"=> 162,
                 "district_id"=> 21,
-                "name"=> "Satkania",
-                "bn_name"=> "সাতকানিয়া"
+                "name_en"=> "Satkania",
+                "name_bn"=> "সাতকানিয়া"
             ],
             [
                 "id"=> 163,
                 "district_id"=> 21,
-                "name"=> "Lohagara",
-                "bn_name"=> "লোহাগাড়া"
+                "name_en"=> "Lohagara",
+                "name_bn"=> "লোহাগাড়া"
             ],
             [
                 "id"=> 164,
                 "district_id"=> 21,
-                "name"=> "Hathazari",
-                "bn_name"=> "হাটহাজারী"
+                "name_en"=> "Hathazari",
+                "name_bn"=> "হাটহাজারী"
             ],
             [
                 "id"=> 165,
                 "district_id"=> 21,
-                "name"=> "Fatikchhari",
-                "bn_name"=> "ফটিকছড়ি"
+                "name_en"=> "Fatikchhari",
+                "name_bn"=> "ফটিকছড়ি"
             ],
             [
                 "id"=> 166,
                 "district_id"=> 21,
-                "name"=> "Raozan",
-                "bn_name"=> "রাউজান"
+                "name_en"=> "Raozan",
+                "name_bn"=> "রাউজান"
             ],
             [
                 "id"=> 167,
                 "district_id"=> 21,
-                "name"=> "Karnafuli",
-                "bn_name"=> "কর্ণফুলী"
+                "name_en"=> "Karnafuli",
+                "name_bn"=> "কর্ণফুলী"
             ],
             [
                 "id"=> 168,
                 "district_id"=> 22,
-                "name"=> "Coxsbazar Sadar",
-                "bn_name"=> "কক্সবাজার সদর"
+                "name_en"=> "Coxsbazar Sadar",
+                "name_bn"=> "কক্সবাজার সদর"
             ],
             [
                 "id"=> 169,
                 "district_id"=> 22,
-                "name"=> "Chakaria",
-                "bn_name"=> "চকরিয়া"
+                "name_en"=> "Chakaria",
+                "name_bn"=> "চকরিয়া"
             ],
             [
                 "id"=> 170,
                 "district_id"=> 22,
-                "name"=> "Kutubdia",
-                "bn_name"=> "কুতুবদিয়া"
+                "name_en"=> "Kutubdia",
+                "name_bn"=> "কুতুবদিয়া"
             ],
             [
                 "id"=> 171,
                 "district_id"=> 22,
-                "name"=> "Ukhiya",
-                "bn_name"=> "উখিয়া"
+                "name_en"=> "Ukhiya",
+                "name_bn"=> "উখিয়া"
             ],
             [
                 "id"=> 172,
                 "district_id"=> 22,
-                "name"=> "Moheshkhali",
-                "bn_name"=> "মহেশখালী"
+                "name_en"=> "Moheshkhali",
+                "name_bn"=> "মহেশখালী"
             ],
             [
                 "id"=> 173,
                 "district_id"=> 22,
-                "name"=> "Pekua",
-                "bn_name"=> "পেকুয়া"
+                "name_en"=> "Pekua",
+                "name_bn"=> "পেকুয়া"
             ],
             [
                 "id"=> 174,
                 "district_id"=> 22,
-                "name"=> "Ramu",
-                "bn_name"=> "রামু"
+                "name_en"=> "Ramu",
+                "name_bn"=> "রামু"
             ],
             [
                 "id"=> 175,
                 "district_id"=> 22,
-                "name"=> "Teknaf",
-                "bn_name"=> "টেকনাফ"
+                "name_en"=> "Teknaf",
+                "name_bn"=> "টেকনাফ"
             ],
             [
                 "id"=> 176,
                 "district_id"=> 23,
-                "name"=> "Khagrachhari Sadar",
-                "bn_name"=> "খাগড়াছড়ি সদর"
+                "name_en"=> "Khagrachhari Sadar",
+                "name_bn"=> "খাগড়াছড়ি সদর"
             ],
             [
                 "id"=> 177,
                 "district_id"=> 23,
-                "name"=> "Dighinala",
-                "bn_name"=> "দিঘীনালা"
+                "name_en"=> "Dighinala",
+                "name_bn"=> "দিঘীনালা"
             ],
             [
                 "id"=> 178,
                 "district_id"=> 23,
-                "name"=> "Panchari",
-                "bn_name"=> "পানছড়ি"
+                "name_en"=> "Panchari",
+                "name_bn"=> "পানছড়ি"
             ],
             [
                 "id"=> 179,
                 "district_id"=> 23,
-                "name"=> "Laxmichhari",
-                "bn_name"=> "লক্ষীছড়ি"
+                "name_en"=> "Laxmichhari",
+                "name_bn"=> "লক্ষীছড়ি"
             ],
             [
                 "id"=> 180,
                 "district_id"=> 23,
-                "name"=> "Mohalchari",
-                "bn_name"=> "মহালছড়ি"
+                "name_en"=> "Mohalchari",
+                "name_bn"=> "মহালছড়ি"
             ],
             [
                 "id"=> 181,
                 "district_id"=> 23,
-                "name"=> "Manikchari",
-                "bn_name"=> "মানিকছড়ি"
+                "name_en"=> "Manikchari",
+                "name_bn"=> "মানিকছড়ি"
             ],
             [
                 "id"=> 182,
                 "district_id"=> 23,
-                "name"=> "Ramgarh",
-                "bn_name"=> "রামগড়"
+                "name_en"=> "Ramgarh",
+                "name_bn"=> "রামগড়"
             ],
             [
                 "id"=> 183,
                 "district_id"=> 23,
-                "name"=> "Matiranga",
-                "bn_name"=> "মাটিরাঙ্গা"
+                "name_en"=> "Matiranga",
+                "name_bn"=> "মাটিরাঙ্গা"
             ],
             [
                 "id"=> 184,
                 "district_id"=> 23,
-                "name"=> "Guimara",
-                "bn_name"=> "গুইমারা"
+                "name_en"=> "Guimara",
+                "name_bn"=> "গুইমারা"
             ],
             [
                 "id"=> 185,
                 "district_id"=> 24,
-                "name"=> "Bandarban Sadar",
-                "bn_name"=> "বান্দরবান সদর"
+                "name_en"=> "Bandarban Sadar",
+                "name_bn"=> "বান্দরবান সদর"
             ],
             [
                 "id"=> 186,
                 "district_id"=> 24,
-                "name"=> "Alikadam",
-                "bn_name"=> "আলীকদম"
+                "name_en"=> "Alikadam",
+                "name_bn"=> "আলীকদম"
             ],
             [
                 "id"=> 187,
                 "district_id"=> 24,
-                "name"=> "Naikhongchhari",
-                "bn_name"=> "নাইক্ষ্যংছড়ি"
+                "name_en"=> "Naikhongchhari",
+                "name_bn"=> "নাইক্ষ্যংছড়ি"
             ],
             [
                 "id"=> 188,
                 "district_id"=> 24,
-                "name"=> "Rowangchhari",
-                "bn_name"=> "রোয়াংছড়ি"
+                "name_en"=> "Rowangchhari",
+                "name_bn"=> "রোয়াংছড়ি"
             ],
             [
                 "id"=> 189,
                 "district_id"=> 24,
-                "name"=> "Lama",
-                "bn_name"=> "লামা"
+                "name_en"=> "Lama",
+                "name_bn"=> "লামা"
             ],
             [
                 "id"=> 190,
                 "district_id"=> 24,
-                "name"=> "Ruma",
-                "bn_name"=> "রুমা"
+                "name_en"=> "Ruma",
+                "name_bn"=> "রুমা"
             ],
             [
                 "id"=> 191,
                 "district_id"=> 24,
-                "name"=> "Thanchi",
-                "bn_name"=> "থানচি"
+                "name_en"=> "Thanchi",
+                "name_bn"=> "থানচি"
             ],
             [
                 "id"=> 192,
                 "district_id"=> 25,
-                "name"=> "Belkuchi",
-                "bn_name"=> "বেলকুচি"
+                "name_en"=> "Belkuchi",
+                "name_bn"=> "বেলকুচি"
             ],
             [
                 "id"=> 193,
                 "district_id"=> 25,
-                "name"=> "Chauhali",
-                "bn_name"=> "চৌহালি"
+                "name_en"=> "Chauhali",
+                "name_bn"=> "চৌহালি"
             ],
             [
                 "id"=> 194,
                 "district_id"=> 25,
-                "name"=> "Kamarkhand",
-                "bn_name"=> "কামারখন্দ"
+                "name_en"=> "Kamarkhand",
+                "name_bn"=> "কামারখন্দ"
             ],
             [
                 "id"=> 195,
                 "district_id"=> 25,
-                "name"=> "Kazipur",
-                "bn_name"=> "কাজীপুর"
+                "name_en"=> "Kazipur",
+                "name_bn"=> "কাজীপুর"
             ],
             [
                 "id"=> 196,
                 "district_id"=> 25,
-                "name"=> "Raigonj",
-                "bn_name"=> "রায়গঞ্জ"
+                "name_en"=> "Raigonj",
+                "name_bn"=> "রায়গঞ্জ"
             ],
             [
                 "id"=> 197,
                 "district_id"=> 25,
-                "name"=> "Shahjadpur",
-                "bn_name"=> "শাহজাদপুর"
+                "name_en"=> "Shahjadpur",
+                "name_bn"=> "শাহজাদপুর"
             ],
             [
                 "id"=> 198,
                 "district_id"=> 25,
-                "name"=> "Sirajganj Sadar",
-                "bn_name"=> "সিরাজগঞ্জ সদর"
+                "name_en"=> "Sirajganj Sadar",
+                "name_bn"=> "সিরাজগঞ্জ সদর"
             ],
             [
                 "id"=> 199,
                 "district_id"=> 25,
-                "name"=> "Tarash",
-                "bn_name"=> "তাড়াশ"
+                "name_en"=> "Tarash",
+                "name_bn"=> "তাড়াশ"
             ],
             [
                 "id"=> 200,
                 "district_id"=> 25,
-                "name"=> "Ullapara",
-                "bn_name"=> "উল্লাপাড়া"
+                "name_en"=> "Ullapara",
+                "name_bn"=> "উল্লাপাড়া"
             ],
             [
                 "id"=> 201,
                 "district_id"=> 26,
-                "name"=> "Sujanagar",
-                "bn_name"=> "সুজানগর"
+                "name_en"=> "Sujanagar",
+                "name_bn"=> "সুজানগর"
             ],
             [
                 "id"=> 202,
                 "district_id"=> 26,
-                "name"=> "Ishurdi",
-                "bn_name"=> "ঈশ্বরদী"
+                "name_en"=> "Ishurdi",
+                "name_bn"=> "ঈশ্বরদী"
             ],
             [
                 "id"=> 203,
                 "district_id"=> 26,
-                "name"=> "Bhangura",
-                "bn_name"=> "ভাঙ্গুড়া"
+                "name_en"=> "Bhangura",
+                "name_bn"=> "ভাঙ্গুড়া"
             ],
             [
                 "id"=> 204,
                 "district_id"=> 26,
-                "name"=> "Pabna Sadar",
-                "bn_name"=> "পাবনা সদর"
+                "name_en"=> "Pabna Sadar",
+                "name_bn"=> "পাবনা সদর"
             ],
             [
                 "id"=> 205,
                 "district_id"=> 26,
-                "name"=> "Bera",
-                "bn_name"=> "বেড়া"
+                "name_en"=> "Bera",
+                "name_bn"=> "বেড়া"
             ],
             [
                 "id"=> 206,
                 "district_id"=> 26,
-                "name"=> "Atghoria",
-                "bn_name"=> "আটঘরিয়া"
+                "name_en"=> "Atghoria",
+                "name_bn"=> "আটঘরিয়া"
             ],
             [
                 "id"=> 207,
                 "district_id"=> 26,
-                "name"=> "Chatmohar",
-                "bn_name"=> "চাটমোহর"
+                "name_en"=> "Chatmohar",
+                "name_bn"=> "চাটমোহর"
             ],
             [
                 "id"=> 208,
                 "district_id"=> 26,
-                "name"=> "Santhia",
-                "bn_name"=> "সাঁথিয়া"
+                "name_en"=> "Santhia",
+                "name_bn"=> "সাঁথিয়া"
             ],
             [
                 "id"=> 209,
                 "district_id"=> 26,
-                "name"=> "Faridpur",
-                "bn_name"=> "ফরিদপুর"
+                "name_en"=> "Faridpur",
+                "name_bn"=> "ফরিদপুর"
             ],
             [
                 "id"=> 210,
                 "district_id"=> 27,
-                "name"=> "Kahaloo",
-                "bn_name"=> "কাহালু"
+                "name_en"=> "Kahaloo",
+                "name_bn"=> "কাহালু"
             ],
             [
                 "id"=> 211,
                 "district_id"=> 27,
-                "name"=> "Bogra Sadar",
-                "bn_name"=> "বগুড়া সদর"
+                "name_en"=> "Bogra Sadar",
+                "name_bn"=> "বগুড়া সদর"
             ],
             [
                 "id"=> 212,
                 "district_id"=> 27,
-                "name"=> "Shariakandi",
-                "bn_name"=> "সারিয়াকান্দি"
+                "name_en"=> "Shariakandi",
+                "name_bn"=> "সারিয়াকান্দি"
             ],
             [
                 "id"=> 213,
                 "district_id"=> 27,
-                "name"=> "Shajahanpur",
-                "bn_name"=> "শাজাহানপুর"
+                "name_en"=> "Shajahanpur",
+                "name_bn"=> "শাজাহানপুর"
             ],
             [
                 "id"=> 214,
                 "district_id"=> 27,
-                "name"=> "Dupchanchia",
-                "bn_name"=> "দুপচাচিঁয়া"
+                "name_en"=> "Dupchanchia",
+                "name_bn"=> "দুপচাচিঁয়া"
             ],
             [
                 "id"=> 215,
                 "district_id"=> 27,
-                "name"=> "Adamdighi",
-                "bn_name"=> "আদমদিঘি"
+                "name_en"=> "Adamdighi",
+                "name_bn"=> "আদমদিঘি"
             ],
             [
                 "id"=> 216,
                 "district_id"=> 27,
-                "name"=> "Nondigram",
-                "bn_name"=> "নন্দিগ্রাম"
+                "name_en"=> "Nondigram",
+                "name_bn"=> "নন্দিগ্রাম"
             ],
             [
                 "id"=> 217,
                 "district_id"=> 27,
-                "name"=> "Sonatala",
-                "bn_name"=> "সোনাতলা"
+                "name_en"=> "Sonatala",
+                "name_bn"=> "সোনাতলা"
             ],
             [
                 "id"=> 218,
                 "district_id"=> 27,
-                "name"=> "Dhunot",
-                "bn_name"=> "ধুনট"
+                "name_en"=> "Dhunot",
+                "name_bn"=> "ধুনট"
             ],
             [
                 "id"=> 219,
                 "district_id"=> 27,
-                "name"=> "Gabtali",
-                "bn_name"=> "গাবতলী"
+                "name_en"=> "Gabtali",
+                "name_bn"=> "গাবতলী"
             ],
             [
                 "id"=> 220,
                 "district_id"=> 27,
-                "name"=> "Sherpur",
-                "bn_name"=> "শেরপুর"
+                "name_en"=> "Sherpur",
+                "name_bn"=> "শেরপুর"
             ],
             [
                 "id"=> 221,
                 "district_id"=> 27,
-                "name"=> "Shibganj",
-                "bn_name"=> "শিবগঞ্জ"
+                "name_en"=> "Shibganj",
+                "name_bn"=> "শিবগঞ্জ"
             ],
             [
                 "id"=> 222,
                 "district_id"=> 28,
-                "name"=> "Paba",
-                "bn_name"=> "পবা"
+                "name_en"=> "Paba",
+                "name_bn"=> "পবা"
             ],
             [
                 "id"=> 223,
                 "district_id"=> 28,
-                "name"=> "Durgapur",
-                "bn_name"=> "দুর্গাপুর"
+                "name_en"=> "Durgapur",
+                "name_bn"=> "দুর্গাপুর"
             ],
             [
                 "id"=> 224,
                 "district_id"=> 28,
-                "name"=> "Mohonpur",
-                "bn_name"=> "মোহনপুর"
+                "name_en"=> "Mohonpur",
+                "name_bn"=> "মোহনপুর"
             ],
             [
                 "id"=> 225,
                 "district_id"=> 28,
-                "name"=> "Charghat",
-                "bn_name"=> "চারঘাট"
+                "name_en"=> "Charghat",
+                "name_bn"=> "চারঘাট"
             ],
             [
                 "id"=> 226,
                 "district_id"=> 28,
-                "name"=> "Puthia",
-                "bn_name"=> "পুঠিয়া"
+                "name_en"=> "Puthia",
+                "name_bn"=> "পুঠিয়া"
             ],
             [
                 "id"=> 227,
                 "district_id"=> 28,
-                "name"=> "Bagha",
-                "bn_name"=> "বাঘা"
+                "name_en"=> "Bagha",
+                "name_bn"=> "বাঘা"
             ],
             [
                 "id"=> 228,
                 "district_id"=> 28,
-                "name"=> "Godagari",
-                "bn_name"=> "গোদাগাড়ী"
+                "name_en"=> "Godagari",
+                "name_bn"=> "গোদাগাড়ী"
             ],
             [
                 "id"=> 229,
                 "district_id"=> 28,
-                "name"=> "Tanore",
-                "bn_name"=> "তানোর"
+                "name_en"=> "Tanore",
+                "name_bn"=> "তানোর"
             ],
             [
                 "id"=> 230,
                 "district_id"=> 28,
-                "name"=> "Bagmara",
-                "bn_name"=> "বাগমারা"
+                "name_en"=> "Bagmara",
+                "name_bn"=> "বাগমারা"
             ],
             [
                 "id"=> 231,
                 "district_id"=> 29,
-                "name"=> "Natore Sadar",
-                "bn_name"=> "নাটোর সদর"
+                "name_en"=> "Natore Sadar",
+                "name_bn"=> "নাটোর সদর"
             ],
             [
                 "id"=> 232,
                 "district_id"=> 29,
-                "name"=> "Singra",
-                "bn_name"=> "সিংড়া"
+                "name_en"=> "Singra",
+                "name_bn"=> "সিংড়া"
             ],
             [
                 "id"=> 233,
                 "district_id"=> 29,
-                "name"=> "Baraigram",
-                "bn_name"=> "বড়াইগ্রাম"
+                "name_en"=> "Baraigram",
+                "name_bn"=> "বড়াইগ্রাম"
             ],
             [
                 "id"=> 234,
                 "district_id"=> 29,
-                "name"=> "Bagatipara",
-                "bn_name"=> "বাগাতিপাড়া"
+                "name_en"=> "Bagatipara",
+                "name_bn"=> "বাগাতিপাড়া"
             ],
             [
                 "id"=> 235,
                 "district_id"=> 29,
-                "name"=> "Lalpur",
-                "bn_name"=> "লালপুর"
+                "name_en"=> "Lalpur",
+                "name_bn"=> "লালপুর"
             ],
             [
                 "id"=> 236,
                 "district_id"=> 29,
-                "name"=> "Gurudaspur",
-                "bn_name"=> "গুরুদাসপুর"
+                "name_en"=> "Gurudaspur",
+                "name_bn"=> "গুরুদাসপুর"
             ],
             [
                 "id"=> 237,
                 "district_id"=> 29,
-                "name"=> "Naldanga",
-                "bn_name"=> "নলডাঙ্গা"
+                "name_en"=> "Naldanga",
+                "name_bn"=> "নলডাঙ্গা"
             ],
             [
                 "id"=> 238,
                 "district_id"=> 30,
-                "name"=> "Akkelpur",
-                "bn_name"=> "আক্কেলপুর"
+                "name_en"=> "Akkelpur",
+                "name_bn"=> "আক্কেলপুর"
             ],
             [
                 "id"=> 239,
                 "district_id"=> 30,
-                "name"=> "Kalai",
-                "bn_name"=> "কালাই"
+                "name_en"=> "Kalai",
+                "name_bn"=> "কালাই"
             ],
             [
                 "id"=> 240,
                 "district_id"=> 30,
-                "name"=> "Khetlal",
-                "bn_name"=> "ক্ষেতলাল"
+                "name_en"=> "Khetlal",
+                "name_bn"=> "ক্ষেতলাল"
             ],
             [
                 "id"=> 241,
                 "district_id"=> 30,
-                "name"=> "Panchbibi",
-                "bn_name"=> "পাঁচবিবি"
+                "name_en"=> "Panchbibi",
+                "name_bn"=> "পাঁচবিবি"
             ],
             [
                 "id"=> 242,
                 "district_id"=> 30,
-                "name"=> "Joypurhat Sadar",
-                "bn_name"=> "জয়পুরহাট সদর"
+                "name_en"=> "Joypurhat Sadar",
+                "name_bn"=> "জয়পুরহাট সদর"
             ],
             [
                 "id"=> 243,
                 "district_id"=> 31,
-                "name"=> "Chapainawabganj Sadar",
-                "bn_name"=> "চাঁপাইনবাবগঞ্জ সদর"
+                "name_en"=> "Chapainawabganj Sadar",
+                "name_bn"=> "চাঁপাইনবাবগঞ্জ সদর"
             ],
             [
                 "id"=> 244,
                 "district_id"=> 31,
-                "name"=> "Gomostapur",
-                "bn_name"=> "গোমস্তাপুর"
+                "name_en"=> "Gomostapur",
+                "name_bn"=> "গোমস্তাপুর"
             ],
             [
                 "id"=> 245,
                 "district_id"=> 31,
-                "name"=> "Nachol",
-                "bn_name"=> "নাচোল"
+                "name_en"=> "Nachol",
+                "name_bn"=> "নাচোল"
             ],
             [
                 "id"=> 246,
                 "district_id"=> 31,
-                "name"=> "Bholahat",
-                "bn_name"=> "ভোলাহাট"
+                "name_en"=> "Bholahat",
+                "name_bn"=> "ভোলাহাট"
             ],
             [
                 "id"=> 247,
                 "district_id"=> 31,
-                "name"=> "Shibganj",
-                "bn_name"=> "শিবগঞ্জ"
+                "name_en"=> "Shibganj",
+                "name_bn"=> "শিবগঞ্জ"
             ],
             [
                 "id"=> 248,
                 "district_id"=> 32,
-                "name"=> "Mohadevpur",
-                "bn_name"=> "মহাদেবপুর"
+                "name_en"=> "Mohadevpur",
+                "name_bn"=> "মহাদেবপুর"
             ],
             [
                 "id"=> 249,
                 "district_id"=> 32,
-                "name"=> "Badalgachi",
-                "bn_name"=> "বদলগাছী"
+                "name_en"=> "Badalgachi",
+                "name_bn"=> "বদলগাছী"
             ],
             [
                 "id"=> 250,
                 "district_id"=> 32,
-                "name"=> "Patnitala",
-                "bn_name"=> "পত্নিতলা"
+                "name_en"=> "Patnitala",
+                "name_bn"=> "পত্নিতলা"
             ],
             [
                 "id"=> 251,
                 "district_id"=> 32,
-                "name"=> "Dhamoirhat",
-                "bn_name"=> "ধামইরহাট"
+                "name_en"=> "Dhamoirhat",
+                "name_bn"=> "ধামইরহাট"
             ],
             [
                 "id"=> 252,
                 "district_id"=> 32,
-                "name"=> "Niamatpur",
-                "bn_name"=> "নিয়ামতপুর"
+                "name_en"=> "Niamatpur",
+                "name_bn"=> "নিয়ামতপুর"
             ],
             [
                 "id"=> 253,
                 "district_id"=> 32,
-                "name"=> "Manda",
-                "bn_name"=> "মান্দা"
+                "name_en"=> "Manda",
+                "name_bn"=> "মান্দা"
             ],
             [
                 "id"=> 254,
                 "district_id"=> 32,
-                "name"=> "Atrai",
-                "bn_name"=> "আত্রাই"
+                "name_en"=> "Atrai",
+                "name_bn"=> "আত্রাই"
             ],
             [
                 "id"=> 255,
                 "district_id"=> 32,
-                "name"=> "Raninagar",
-                "bn_name"=> "রাণীনগর"
+                "name_en"=> "Raninagar",
+                "name_bn"=> "রাণীনগর"
             ],
             [
                 "id"=> 256,
                 "district_id"=> 32,
-                "name"=> "Naogaon Sadar",
-                "bn_name"=> "নওগাঁ সদর"
+                "name_en"=> "Naogaon Sadar",
+                "name_bn"=> "নওগাঁ সদর"
             ],
             [
                 "id"=> 257,
                 "district_id"=> 32,
-                "name"=> "Porsha",
-                "bn_name"=> "পোরশা"
+                "name_en"=> "Porsha",
+                "name_bn"=> "পোরশা"
             ],
             [
                 "id"=> 258,
                 "district_id"=> 32,
-                "name"=> "Sapahar",
-                "bn_name"=> "সাপাহার"
+                "name_en"=> "Sapahar",
+                "name_bn"=> "সাপাহার"
             ],
             [
                 "id"=> 259,
                 "district_id"=> 33,
-                "name"=> "Manirampur",
-                "bn_name"=> "মণিরামপুর"
+                "name_en"=> "Manirampur",
+                "name_bn"=> "মণিরামপুর"
             ],
             [
                 "id"=> 260,
                 "district_id"=> 33,
-                "name"=> "Abhaynagar",
-                "bn_name"=> "অভয়নগর"
+                "name_en"=> "Abhaynagar",
+                "name_bn"=> "অভয়নগর"
             ],
             [
                 "id"=> 261,
                 "district_id"=> 33,
-                "name"=> "Bagherpara",
-                "bn_name"=> "বাঘারপাড়া"
+                "name_en"=> "Bagherpara",
+                "name_bn"=> "বাঘারপাড়া"
             ],
             [
                 "id"=> 262,
                 "district_id"=> 33,
-                "name"=> "Chougachha",
-                "bn_name"=> "চৌগাছা"
+                "name_en"=> "Chougachha",
+                "name_bn"=> "চৌগাছা"
             ],
             [
                 "id"=> 263,
                 "district_id"=> 33,
-                "name"=> "Jhikargacha",
-                "bn_name"=> "ঝিকরগাছা"
+                "name_en"=> "Jhikargacha",
+                "name_bn"=> "ঝিকরগাছা"
             ],
             [
                 "id"=> 264,
                 "district_id"=> 33,
-                "name"=> "Keshabpur",
-                "bn_name"=> "কেশবপুর"
+                "name_en"=> "Keshabpur",
+                "name_bn"=> "কেশবপুর"
             ],
             [
                 "id"=> 265,
                 "district_id"=> 33,
-                "name"=> "Jessore Sadar",
-                "bn_name"=> "যশোর সদর"
+                "name_en"=> "Jessore Sadar",
+                "name_bn"=> "যশোর সদর"
             ],
             [
                 "id"=> 266,
                 "district_id"=> 33,
-                "name"=> "Sharsha",
-                "bn_name"=> "শার্শা"
+                "name_en"=> "Sharsha",
+                "name_bn"=> "শার্শা"
             ],
             [
                 "id"=> 267,
                 "district_id"=> 34,
-                "name"=> "Assasuni",
-                "bn_name"=> "আশাশুনি"
+                "name_en"=> "Assasuni",
+                "name_bn"=> "আশাশুনি"
             ],
             [
                 "id"=> 268,
                 "district_id"=> 34,
-                "name"=> "Debhata",
-                "bn_name"=> "দেবহাটা"
+                "name_en"=> "Debhata",
+                "name_bn"=> "দেবহাটা"
             ],
             [
                 "id"=> 269,
                 "district_id"=> 34,
-                "name"=> "Kalaroa",
-                "bn_name"=> "কলারোয়া"
+                "name_en"=> "Kalaroa",
+                "name_bn"=> "কলারোয়া"
             ],
             [
                 "id"=> 270,
                 "district_id"=> 34,
-                "name"=> "Satkhira Sadar",
-                "bn_name"=> "সাতক্ষীরা সদর"
+                "name_en"=> "Satkhira Sadar",
+                "name_bn"=> "সাতক্ষীরা সদর"
             ],
             [
                 "id"=> 271,
                 "district_id"=> 34,
-                "name"=> "Shyamnagar",
-                "bn_name"=> "শ্যামনগর"
+                "name_en"=> "Shyamnagar",
+                "name_bn"=> "শ্যামনগর"
             ],
             [
                 "id"=> 272,
                 "district_id"=> 34,
-                "name"=> "Tala",
-                "bn_name"=> "তালা"
+                "name_en"=> "Tala",
+                "name_bn"=> "তালা"
             ],
             [
                 "id"=> 273,
                 "district_id"=> 34,
-                "name"=> "Kaliganj",
-                "bn_name"=> "কালিগঞ্জ"
+                "name_en"=> "Kaliganj",
+                "name_bn"=> "কালিগঞ্জ"
             ],
             [
                 "id"=> 274,
                 "district_id"=> 35,
-                "name"=> "Mujibnagar",
-                "bn_name"=> "মুজিবনগর"
+                "name_en"=> "Mujibnagar",
+                "name_bn"=> "মুজিবনগর"
             ],
             [
                 "id"=> 275,
                 "district_id"=> 35,
-                "name"=> "Meherpur Sadar",
-                "bn_name"=> "মেহেরপুর সদর"
+                "name_en"=> "Meherpur Sadar",
+                "name_bn"=> "মেহেরপুর সদর"
             ],
             [
                 "id"=> 276,
                 "district_id"=> 35,
-                "name"=> "Gangni",
-                "bn_name"=> "গাংনী"
+                "name_en"=> "Gangni",
+                "name_bn"=> "গাংনী"
             ],
             [
                 "id"=> 277,
                 "district_id"=> 36,
-                "name"=> "Narail Sadar",
-                "bn_name"=> "নড়াইল সদর"
+                "name_en"=> "Narail Sadar",
+                "name_bn"=> "নড়াইল সদর"
             ],
             [
                 "id"=> 278,
                 "district_id"=> 36,
-                "name"=> "Lohagara",
-                "bn_name"=> "লোহাগড়া"
+                "name_en"=> "Lohagara",
+                "name_bn"=> "লোহাগড়া"
             ],
             [
                 "id"=> 279,
                 "district_id"=> 36,
-                "name"=> "Kalia",
-                "bn_name"=> "কালিয়া"
+                "name_en"=> "Kalia",
+                "name_bn"=> "কালিয়া"
             ],
             [
                 "id"=> 280,
                 "district_id"=> 37,
-                "name"=> "Chuadanga Sadar",
-                "bn_name"=> "চুয়াডাঙ্গা সদর"
+                "name_en"=> "Chuadanga Sadar",
+                "name_bn"=> "চুয়াডাঙ্গা সদর"
             ],
             [
                 "id"=> 281,
                 "district_id"=> 37,
-                "name"=> "Alamdanga",
-                "bn_name"=> "আলমডাঙ্গা"
+                "name_en"=> "Alamdanga",
+                "name_bn"=> "আলমডাঙ্গা"
             ],
             [
                 "id"=> 282,
                 "district_id"=> 37,
-                "name"=> "Damurhuda",
-                "bn_name"=> "দামুড়হুদা"
+                "name_en"=> "Damurhuda",
+                "name_bn"=> "দামুড়হুদা"
             ],
             [
                 "id"=> 283,
                 "district_id"=> 37,
-                "name"=> "Jibannagar",
-                "bn_name"=> "জীবননগর"
+                "name_en"=> "Jibannagar",
+                "name_bn"=> "জীবননগর"
             ],
             [
                 "id"=> 284,
                 "district_id"=> 38,
-                "name"=> "Kushtia Sadar",
-                "bn_name"=> "কুষ্টিয়া সদর"
+                "name_en"=> "Kushtia Sadar",
+                "name_bn"=> "কুষ্টিয়া সদর"
             ],
             [
                 "id"=> 285,
                 "district_id"=> 38,
-                "name"=> "Kumarkhali",
-                "bn_name"=> "কুমারখালী"
+                "name_en"=> "Kumarkhali",
+                "name_bn"=> "কুমারখালী"
             ],
             [
                 "id"=> 286,
                 "district_id"=> 38,
-                "name"=> "Khoksa",
-                "bn_name"=> "খোকসা"
+                "name_en"=> "Khoksa",
+                "name_bn"=> "খোকসা"
             ],
             [
                 "id"=> 287,
                 "district_id"=> 38,
-                "name"=> "Mirpur",
-                "bn_name"=> "মিরপুর"
+                "name_en"=> "Mirpur",
+                "name_bn"=> "মিরপুর"
             ],
             [
                 "id"=> 288,
                 "district_id"=> 38,
-                "name"=> "Daulatpur",
-                "bn_name"=> "দৌলতপুর"
+                "name_en"=> "Daulatpur",
+                "name_bn"=> "দৌলতপুর"
             ],
             [
                 "id"=> 289,
                 "district_id"=> 38,
-                "name"=> "Bheramara",
-                "bn_name"=> "ভেড়ামারা"
+                "name_en"=> "Bheramara",
+                "name_bn"=> "ভেড়ামারা"
             ],
             [
                 "id"=> 290,
                 "district_id"=> 39,
-                "name"=> "Shalikha",
-                "bn_name"=> "শালিখা"
+                "name_en"=> "Shalikha",
+                "name_bn"=> "শালিখা"
             ],
             [
                 "id"=> 291,
                 "district_id"=> 39,
-                "name"=> "Sreepur",
-                "bn_name"=> "শ্রীপুর"
+                "name_en"=> "Sreepur",
+                "name_bn"=> "শ্রীপুর"
             ],
             [
                 "id"=> 292,
                 "district_id"=> 39,
-                "name"=> "Magura Sadar",
-                "bn_name"=> "মাগুরা সদর"
+                "name_en"=> "Magura Sadar",
+                "name_bn"=> "মাগুরা সদর"
             ],
             [
                 "id"=> 293,
                 "district_id"=> 39,
-                "name"=> "Mohammadpur",
-                "bn_name"=> "মহম্মদপুর"
+                "name_en"=> "Mohammadpur",
+                "name_bn"=> "মহম্মদপুর"
             ],
             [
                 "id"=> 294,
                 "district_id"=> 40,
-                "name"=> "Paikgasa",
-                "bn_name"=> "পাইকগাছা"
+                "name_en"=> "Paikgasa",
+                "name_bn"=> "পাইকগাছা"
             ],
             [
                 "id"=> 295,
                 "district_id"=> 40,
-                "name"=> "Fultola",
-                "bn_name"=> "ফুলতলা"
+                "name_en"=> "Fultola",
+                "name_bn"=> "ফুলতলা"
             ],
             [
                 "id"=> 296,
                 "district_id"=> 40,
-                "name"=> "Digholia",
-                "bn_name"=> "দিঘলিয়া"
+                "name_en"=> "Digholia",
+                "name_bn"=> "দিঘলিয়া"
             ],
             [
                 "id"=> 297,
                 "district_id"=> 40,
-                "name"=> "Rupsha",
-                "bn_name"=> "রূপসা"
+                "name_en"=> "Rupsha",
+                "name_bn"=> "রূপসা"
             ],
             [
                 "id"=> 298,
                 "district_id"=> 40,
-                "name"=> "Terokhada",
-                "bn_name"=> "তেরখাদা"
+                "name_en"=> "Terokhada",
+                "name_bn"=> "তেরখাদা"
             ],
             [
                 "id"=> 299,
                 "district_id"=> 40,
-                "name"=> "Dumuria",
-                "bn_name"=> "ডুমুরিয়া"
+                "name_en"=> "Dumuria",
+                "name_bn"=> "ডুমুরিয়া"
             ],
             [
                 "id"=> 300,
                 "district_id"=> 40,
-                "name"=> "Botiaghata",
-                "bn_name"=> "বটিয়াঘাটা"
+                "name_en"=> "Botiaghata",
+                "name_bn"=> "বটিয়াঘাটা"
             ],
             [
                 "id"=> 301,
                 "district_id"=> 40,
-                "name"=> "Dakop",
-                "bn_name"=> "দাকোপ"
+                "name_en"=> "Dakop",
+                "name_bn"=> "দাকোপ"
             ],
             [
                 "id"=> 302,
                 "district_id"=> 40,
-                "name"=> "Koyra",
-                "bn_name"=> "কয়রা"
+                "name_en"=> "Koyra",
+                "name_bn"=> "কয়রা"
             ],
             [
                 "id"=> 303,
                 "district_id"=> 41,
-                "name"=> "Fakirhat",
-                "bn_name"=> "ফকিরহাট"
+                "name_en"=> "Fakirhat",
+                "name_bn"=> "ফকিরহাট"
             ],
             [
                 "id"=> 304,
                 "district_id"=> 41,
-                "name"=> "Bagerhat Sadar",
-                "bn_name"=> "বাগেরহাট সদর"
+                "name_en"=> "Bagerhat Sadar",
+                "name_bn"=> "বাগেরহাট সদর"
             ],
             [
                 "id"=> 305,
                 "district_id"=> 41,
-                "name"=> "Mollahat",
-                "bn_name"=> "মোল্লাহাট"
+                "name_en"=> "Mollahat",
+                "name_bn"=> "মোল্লাহাট"
             ],
             [
                 "id"=> 306,
                 "district_id"=> 41,
-                "name"=> "Sarankhola",
-                "bn_name"=> "শরণখোলা"
+                "name_en"=> "Sarankhola",
+                "name_bn"=> "শরণখোলা"
             ],
             [
                 "id"=> 307,
                 "district_id"=> 41,
-                "name"=> "Rampal",
-                "bn_name"=> "রামপাল"
+                "name_en"=> "Rampal",
+                "name_bn"=> "রামপাল"
             ],
             [
                 "id"=> 308,
                 "district_id"=> 41,
-                "name"=> "Morrelganj",
-                "bn_name"=> "মোড়েলগঞ্জ"
+                "name_en"=> "Morrelganj",
+                "name_bn"=> "মোড়েলগঞ্জ"
             ],
             [
                 "id"=> 309,
                 "district_id"=> 41,
-                "name"=> "Kachua",
-                "bn_name"=> "কচুয়া"
+                "name_en"=> "Kachua",
+                "name_bn"=> "কচুয়া"
             ],
             [
                 "id"=> 310,
                 "district_id"=> 41,
-                "name"=> "Mongla",
-                "bn_name"=> "মোংলা"
+                "name_en"=> "Mongla",
+                "name_bn"=> "মোংলা"
             ],
             [
                 "id"=> 311,
                 "district_id"=> 41,
-                "name"=> "Chitalmari",
-                "bn_name"=> "চিতলমারী"
+                "name_en"=> "Chitalmari",
+                "name_bn"=> "চিতলমারী"
             ],
             [
                 "id"=> 312,
                 "district_id"=> 42,
-                "name"=> "Jhenaidah Sadar",
-                "bn_name"=> "ঝিনাইদহ সদর"
+                "name_en"=> "Jhenaidah Sadar",
+                "name_bn"=> "ঝিনাইদহ সদর"
             ],
             [
                 "id"=> 313,
                 "district_id"=> 42,
-                "name"=> "Shailkupa",
-                "bn_name"=> "শৈলকুপা"
+                "name_en"=> "Shailkupa",
+                "name_bn"=> "শৈলকুপা"
             ],
             [
                 "id"=> 314,
                 "district_id"=> 42,
-                "name"=> "Harinakundu",
-                "bn_name"=> "হরিণাকুন্ডু"
+                "name_en"=> "Harinakundu",
+                "name_bn"=> "হরিণাকুন্ডু"
             ],
             [
                 "id"=> 315,
                 "district_id"=> 42,
-                "name"=> "Kaliganj",
-                "bn_name"=> "কালীগঞ্জ"
+                "name_en"=> "Kaliganj",
+                "name_bn"=> "কালীগঞ্জ"
             ],
             [
                 "id"=> 316,
                 "district_id"=> 42,
-                "name"=> "Kotchandpur",
-                "bn_name"=> "কোটচাঁদপুর"
+                "name_en"=> "Kotchandpur",
+                "name_bn"=> "কোটচাঁদপুর"
             ],
             [
                 "id"=> 317,
                 "district_id"=> 42,
-                "name"=> "Moheshpur",
-                "bn_name"=> "মহেশপুর"
+                "name_en"=> "Moheshpur",
+                "name_bn"=> "মহেশপুর"
             ],
             [
                 "id"=> 318,
                 "district_id"=> 43,
-                "name"=> "Jhalakathi Sadar",
-                "bn_name"=> "ঝালকাঠি সদর"
+                "name_en"=> "Jhalakathi Sadar",
+                "name_bn"=> "ঝালকাঠি সদর"
             ],
             [
                 "id"=> 319,
                 "district_id"=> 43,
-                "name"=> "Kathalia",
-                "bn_name"=> "কাঠালিয়া"
+                "name_en"=> "Kathalia",
+                "name_bn"=> "কাঠালিয়া"
             ],
             [
                 "id"=> 320,
                 "district_id"=> 43,
-                "name"=> "Nalchity",
-                "bn_name"=> "নলছিটি"
+                "name_en"=> "Nalchity",
+                "name_bn"=> "নলছিটি"
             ],
             [
                 "id"=> 321,
                 "district_id"=> 43,
-                "name"=> "Rajapur",
-                "bn_name"=> "রাজাপুর"
+                "name_en"=> "Rajapur",
+                "name_bn"=> "রাজাপুর"
             ],
             [
                 "id"=> 322,
                 "district_id"=> 44,
-                "name"=> "Bauphal",
-                "bn_name"=> "বাউফল"
+                "name_en"=> "Bauphal",
+                "name_bn"=> "বাউফল"
             ],
             [
                 "id"=> 323,
                 "district_id"=> 44,
-                "name"=> "Patuakhali Sadar",
-                "bn_name"=> "পটুয়াখালী সদর"
+                "name_en"=> "Patuakhali Sadar",
+                "name_bn"=> "পটুয়াখালী সদর"
             ],
             [
                 "id"=> 324,
                 "district_id"=> 44,
-                "name"=> "Dumki",
-                "bn_name"=> "দুমকি"
+                "name_en"=> "Dumki",
+                "name_bn"=> "দুমকি"
             ],
             [
                 "id"=> 325,
                 "district_id"=> 44,
-                "name"=> "Dashmina",
-                "bn_name"=> "দশমিনা"
+                "name_en"=> "Dashmina",
+                "name_bn"=> "দশমিনা"
             ],
             [
                 "id"=> 326,
                 "district_id"=> 44,
-                "name"=> "Kalapara",
-                "bn_name"=> "কলাপাড়া"
+                "name_en"=> "Kalapara",
+                "name_bn"=> "কলাপাড়া"
             ],
             [
                 "id"=> 327,
                 "district_id"=> 44,
-                "name"=> "Mirzaganj",
-                "bn_name"=> "মির্জাগঞ্জ"
+                "name_en"=> "Mirzaganj",
+                "name_bn"=> "মির্জাগঞ্জ"
             ],
             [
                 "id"=> 328,
                 "district_id"=> 44,
-                "name"=> "Galachipa",
-                "bn_name"=> "গলাচিপা"
+                "name_en"=> "Galachipa",
+                "name_bn"=> "গলাচিপা"
             ],
             [
                 "id"=> 329,
                 "district_id"=> 44,
-                "name"=> "Rangabali",
-                "bn_name"=> "রাঙ্গাবালী"
+                "name_en"=> "Rangabali",
+                "name_bn"=> "রাঙ্গাবালী"
             ],
             [
                 "id"=> 330,
                 "district_id"=> 45,
-                "name"=> "Pirojpur Sadar",
-                "bn_name"=> "পিরোজপুর সদর"
+                "name_en"=> "Pirojpur Sadar",
+                "name_bn"=> "পিরোজপুর সদর"
             ],
             [
                 "id"=> 331,
                 "district_id"=> 45,
-                "name"=> "Nazirpur",
-                "bn_name"=> "নাজিরপুর"
+                "name_en"=> "Nazirpur",
+                "name_bn"=> "নাজিরপুর"
             ],
             [
                 "id"=> 332,
                 "district_id"=> 45,
-                "name"=> "Kawkhali",
-                "bn_name"=> "কাউখালী"
+                "name_en"=> "Kawkhali",
+                "name_bn"=> "কাউখালী"
             ],
             [
                 "id"=> 333,
                 "district_id"=> 45,
-                "name"=> "Zianagar",
-                "bn_name"=> "জিয়ানগর"
+                "name_en"=> "Zianagar",
+                "name_bn"=> "জিয়ানগর"
             ],
             [
                 "id"=> 334,
                 "district_id"=> 45,
-                "name"=> "Bhandaria",
-                "bn_name"=> "ভান্ডারিয়া"
+                "name_en"=> "Bhandaria",
+                "name_bn"=> "ভান্ডারিয়া"
             ],
             [
                 "id"=> 335,
                 "district_id"=> 45,
-                "name"=> "Mathbaria",
-                "bn_name"=> "মঠবাড়ীয়া"
+                "name_en"=> "Mathbaria",
+                "name_bn"=> "মঠবাড়ীয়া"
             ],
             [
                 "id"=> 336,
                 "district_id"=> 45,
-                "name"=> "Nesarabad",
-                "bn_name"=> "নেছারাবাদ"
+                "name_en"=> "Nesarabad",
+                "name_bn"=> "নেছারাবাদ"
             ],
             [
                 "id"=> 337,
                 "district_id"=> 46,
-                "name"=> "Barisal Sadar",
-                "bn_name"=> "বরিশাল সদর"
+                "name_en"=> "Barisal Sadar",
+                "name_bn"=> "বরিশাল সদর"
             ],
             [
                 "id"=> 338,
                 "district_id"=> 46,
-                "name"=> "Bakerganj",
-                "bn_name"=> "বাকেরগঞ্জ"
+                "name_en"=> "Bakerganj",
+                "name_bn"=> "বাকেরগঞ্জ"
             ],
             [
                 "id"=> 339,
                 "district_id"=> 46,
-                "name"=> "Babuganj",
-                "bn_name"=> "বাবুগঞ্জ"
+                "name_en"=> "Babuganj",
+                "name_bn"=> "বাবুগঞ্জ"
             ],
             [
                 "id"=> 340,
                 "district_id"=> 46,
-                "name"=> "Wazirpur",
-                "bn_name"=> "উজিরপুর"
+                "name_en"=> "Wazirpur",
+                "name_bn"=> "উজিরপুর"
             ],
             [
                 "id"=> 341,
                 "district_id"=> 46,
-                "name"=> "Banaripara",
-                "bn_name"=> "বানারীপাড়া"
+                "name_en"=> "Banaripara",
+                "name_bn"=> "বানারীপাড়া"
             ],
             [
                 "id"=> 342,
                 "district_id"=> 46,
-                "name"=> "Gournadi",
-                "bn_name"=> "গৌরনদী"
+                "name_en"=> "Gournadi",
+                "name_bn"=> "গৌরনদী"
             ],
             [
                 "id"=> 343,
                 "district_id"=> 46,
-                "name"=> "Agailjhara",
-                "bn_name"=> "আগৈলঝাড়া"
+                "name_en"=> "Agailjhara",
+                "name_bn"=> "আগৈলঝাড়া"
             ],
             [
                 "id"=> 344,
                 "district_id"=> 46,
-                "name"=> "Mehendiganj",
-                "bn_name"=> "মেহেন্দিগঞ্জ"
+                "name_en"=> "Mehendiganj",
+                "name_bn"=> "মেহেন্দিগঞ্জ"
             ],
             [
                 "id"=> 345,
                 "district_id"=> 46,
-                "name"=> "Muladi",
-                "bn_name"=> "মুলাদী"
+                "name_en"=> "Muladi",
+                "name_bn"=> "মুলাদী"
             ],
             [
                 "id"=> 346,
                 "district_id"=> 46,
-                "name"=> "Hizla",
-                "bn_name"=> "হিজলা"
+                "name_en"=> "Hizla",
+                "name_bn"=> "হিজলা"
             ],
             [
                 "id"=> 347,
                 "district_id"=> 47,
-                "name"=> "Bhola Sadar",
-                "bn_name"=> "ভোলা সদর"
+                "name_en"=> "Bhola Sadar",
+                "name_bn"=> "ভোলা সদর"
             ],
             [
                 "id"=> 348,
                 "district_id"=> 47,
-                "name"=> "Borhan Uddin",
-                "bn_name"=> "বোরহান উদ্দিন"
+                "name_en"=> "Borhan Uddin",
+                "name_bn"=> "বোরহান উদ্দিন"
             ],
             [
                 "id"=> 349,
                 "district_id"=> 47,
-                "name"=> "Charfesson",
-                "bn_name"=> "চরফ্যাশন"
+                "name_en"=> "Charfesson",
+                "name_bn"=> "চরফ্যাশন"
             ],
             [
                 "id"=> 350,
                 "district_id"=> 47,
-                "name"=> "Doulatkhan",
-                "bn_name"=> "দৌলতখান"
+                "name_en"=> "Doulatkhan",
+                "name_bn"=> "দৌলতখান"
             ],
             [
                 "id"=> 351,
                 "district_id"=> 47,
-                "name"=> "Monpura",
-                "bn_name"=> "মনপুরা"
+                "name_en"=> "Monpura",
+                "name_bn"=> "মনপুরা"
             ],
             [
                 "id"=> 352,
                 "district_id"=> 47,
-                "name"=> "Tazumuddin",
-                "bn_name"=> "তজুমদ্দিন"
+                "name_en"=> "Tazumuddin",
+                "name_bn"=> "তজুমদ্দিন"
             ],
             [
                 "id"=> 353,
                 "district_id"=> 47,
-                "name"=> "Lalmohan",
-                "bn_name"=> "লালমোহন"
+                "name_en"=> "Lalmohan",
+                "name_bn"=> "লালমোহন"
             ],
             [
                 "id"=> 354,
                 "district_id"=> 48,
-                "name"=> "Amtali",
-                "bn_name"=> "আমতলী"
+                "name_en"=> "Amtali",
+                "name_bn"=> "আমতলী"
             ],
             [
                 "id"=> 355,
                 "district_id"=> 48,
-                "name"=> "Barguna Sadar",
-                "bn_name"=> "বরগুনা সদর"
+                "name_en"=> "Barguna Sadar",
+                "name_bn"=> "বরগুনা সদর"
             ],
             [
                 "id"=> 356,
                 "district_id"=> 48,
-                "name"=> "Betagi",
-                "bn_name"=> "বেতাগী"
+                "name_en"=> "Betagi",
+                "name_bn"=> "বেতাগী"
             ],
             [
                 "id"=> 357,
                 "district_id"=> 48,
-                "name"=> "Bamna",
-                "bn_name"=> "বামনা"
+                "name_en"=> "Bamna",
+                "name_bn"=> "বামনা"
             ],
             [
                 "id"=> 358,
                 "district_id"=> 48,
-                "name"=> "Pathorghata",
-                "bn_name"=> "পাথরঘাটা"
+                "name_en"=> "Pathorghata",
+                "name_bn"=> "পাথরঘাটা"
             ],
             [
                 "id"=> 359,
                 "district_id"=> 48,
-                "name"=> "Taltali",
-                "bn_name"=> "তালতলি"
+                "name_en"=> "Taltali",
+                "name_bn"=> "তালতলি"
             ],
             [
                 "id"=> 360,
                 "district_id"=> 49,
-                "name"=> "Panchagarh Sadar",
-                "bn_name"=> "পঞ্চগড় সদর"
+                "name_en"=> "Panchagarh Sadar",
+                "name_bn"=> "পঞ্চগড় সদর"
             ],
             [
                 "id"=> 361,
                 "district_id"=> 49,
-                "name"=> "Debiganj",
-                "bn_name"=> "দেবীগঞ্জ"
+                "name_en"=> "Debiganj",
+                "name_bn"=> "দেবীগঞ্জ"
             ],
             [
                 "id"=> 362,
                 "district_id"=> 49,
-                "name"=> "Boda",
-                "bn_name"=> "বোদা"
+                "name_en"=> "Boda",
+                "name_bn"=> "বোদা"
             ],
             [
                 "id"=> 363,
                 "district_id"=> 49,
-                "name"=> "Atwari",
-                "bn_name"=> "আটোয়ারী"
+                "name_en"=> "Atwari",
+                "name_bn"=> "আটোয়ারী"
             ],
             [
                 "id"=> 364,
                 "district_id"=> 49,
-                "name"=> "Tetulia",
-                "bn_name"=> "তেতুলিয়া"
+                "name_en"=> "Tetulia",
+                "name_bn"=> "তেতুলিয়া"
             ],
             [
                 "id"=> 365,
                 "district_id"=> 50,
-                "name"=> "Nawabganj",
-                "bn_name"=> "নবাবগঞ্জ"
+                "name_en"=> "Nawabganj",
+                "name_bn"=> "নবাবগঞ্জ"
             ],
             [
                 "id"=> 366,
                 "district_id"=> 50,
-                "name"=> "Birganj",
-                "bn_name"=> "বীরগঞ্জ"
+                "name_en"=> "Birganj",
+                "name_bn"=> "বীরগঞ্জ"
             ],
             [
                 "id"=> 367,
                 "district_id"=> 50,
-                "name"=> "Ghoraghat",
-                "bn_name"=> "ঘোড়াঘাট"
+                "name_en"=> "Ghoraghat",
+                "name_bn"=> "ঘোড়াঘাট"
             ],
             [
                 "id"=> 368,
                 "district_id"=> 50,
-                "name"=> "Birampur",
-                "bn_name"=> "বিরামপুর"
+                "name_en"=> "Birampur",
+                "name_bn"=> "বিরামপুর"
             ],
             [
                 "id"=> 369,
                 "district_id"=> 50,
-                "name"=> "Parbatipur",
-                "bn_name"=> "পার্বতীপুর"
+                "name_en"=> "Parbatipur",
+                "name_bn"=> "পার্বতীপুর"
             ],
             [
                 "id"=> 370,
                 "district_id"=> 50,
-                "name"=> "Bochaganj",
-                "bn_name"=> "বোচাগঞ্জ"
+                "name_en"=> "Bochaganj",
+                "name_bn"=> "বোচাগঞ্জ"
             ],
             [
                 "id"=> 371,
                 "district_id"=> 50,
-                "name"=> "Kaharol",
-                "bn_name"=> "কাহারোল"
+                "name_en"=> "Kaharol",
+                "name_bn"=> "কাহারোল"
             ],
             [
                 "id"=> 372,
                 "district_id"=> 50,
-                "name"=> "Fulbari",
-                "bn_name"=> "ফুলবাড়ী"
+                "name_en"=> "Fulbari",
+                "name_bn"=> "ফুলবাড়ী"
             ],
             [
                 "id"=> 373,
                 "district_id"=> 50,
-                "name"=> "Dinajpur Sadar",
-                "bn_name"=> "দিনাজপুর সদর"
+                "name_en"=> "Dinajpur Sadar",
+                "name_bn"=> "দিনাজপুর সদর"
             ],
             [
                 "id"=> 374,
                 "district_id"=> 50,
-                "name"=> "Hakimpur",
-                "bn_name"=> "হাকিমপুর"
+                "name_en"=> "Hakimpur",
+                "name_bn"=> "হাকিমপুর"
             ],
             [
                 "id"=> 375,
                 "district_id"=> 50,
-                "name"=> "Khansama",
-                "bn_name"=> "খানসামা"
+                "name_en"=> "Khansama",
+                "name_bn"=> "খানসামা"
             ],
             [
                 "id"=> 376,
                 "district_id"=> 50,
-                "name"=> "Birol",
-                "bn_name"=> "বিরল"
+                "name_en"=> "Birol",
+                "name_bn"=> "বিরল"
             ],
             [
                 "id"=> 377,
                 "district_id"=> 50,
-                "name"=> "Chirirbandar",
-                "bn_name"=> "চিরিরবন্দর"
+                "name_en"=> "Chirirbandar",
+                "name_bn"=> "চিরিরবন্দর"
             ],
             [
                 "id"=> 378,
                 "district_id"=> 51,
-                "name"=> "Lalmonirhat Sadar",
-                "bn_name"=> "লালমনিরহাট সদর"
+                "name_en"=> "Lalmonirhat Sadar",
+                "name_bn"=> "লালমনিরহাট সদর"
             ],
             [
                 "id"=> 379,
                 "district_id"=> 51,
-                "name"=> "Kaliganj",
-                "bn_name"=> "কালীগঞ্জ"
+                "name_en"=> "Kaliganj",
+                "name_bn"=> "কালীগঞ্জ"
             ],
             [
                 "id"=> 380,
                 "district_id"=> 51,
-                "name"=> "Hatibandha",
-                "bn_name"=> "হাতীবান্ধা"
+                "name_en"=> "Hatibandha",
+                "name_bn"=> "হাতীবান্ধা"
             ],
             [
                 "id"=> 381,
                 "district_id"=> 51,
-                "name"=> "Patgram",
-                "bn_name"=> "পাটগ্রাম"
+                "name_en"=> "Patgram",
+                "name_bn"=> "পাটগ্রাম"
             ],
             [
                 "id"=> 382,
                 "district_id"=> 51,
-                "name"=> "Aditmari",
-                "bn_name"=> "আদিতমারী"
+                "name_en"=> "Aditmari",
+                "name_bn"=> "আদিতমারী"
             ],
             [
                 "id"=> 383,
                 "district_id"=> 52,
-                "name"=> "Syedpur",
-                "bn_name"=> "সৈয়দপুর"
+                "name_en"=> "Syedpur",
+                "name_bn"=> "সৈয়দপুর"
             ],
             [
                 "id"=> 384,
                 "district_id"=> 52,
-                "name"=> "Domar",
-                "bn_name"=> "ডোমার"
+                "name_en"=> "Domar",
+                "name_bn"=> "ডোমার"
             ],
             [
                 "id"=> 385,
                 "district_id"=> 52,
-                "name"=> "Dimla",
-                "bn_name"=> "ডিমলা"
+                "name_en"=> "Dimla",
+                "name_bn"=> "ডিমলা"
             ],
             [
                 "id"=> 386,
                 "district_id"=> 52,
-                "name"=> "Jaldhaka",
-                "bn_name"=> "জলঢাকা"
+                "name_en"=> "Jaldhaka",
+                "name_bn"=> "জলঢাকা"
             ],
             [
                 "id"=> 387,
                 "district_id"=> 52,
-                "name"=> "Kishorganj",
-                "bn_name"=> "কিশোরগঞ্জ"
+                "name_en"=> "Kishorganj",
+                "name_bn"=> "কিশোরগঞ্জ"
             ],
             [
                 "id"=> 388,
                 "district_id"=> 52,
-                "name"=> "Nilphamari Sadar",
-                "bn_name"=> "নীলফামারী সদর"
+                "name_en"=> "Nilphamari Sadar",
+                "name_bn"=> "নীলফামারী সদর"
             ],
             [
                 "id"=> 389,
                 "district_id"=> 53,
-                "name"=> "Sadullapur",
-                "bn_name"=> "সাদুল্লাপুর"
+                "name_en"=> "Sadullapur",
+                "name_bn"=> "সাদুল্লাপুর"
             ],
             [
                 "id"=> 390,
                 "district_id"=> 53,
-                "name"=> "Gaibandha Sadar",
-                "bn_name"=> "গাইবান্ধা সদর"
+                "name_en"=> "Gaibandha Sadar",
+                "name_bn"=> "গাইবান্ধা সদর"
             ],
             [
                 "id"=> 391,
                 "district_id"=> 53,
-                "name"=> "Palashbari",
-                "bn_name"=> "পলাশবাড়ী"
+                "name_en"=> "Palashbari",
+                "name_bn"=> "পলাশবাড়ী"
             ],
             [
                 "id"=> 392,
                 "district_id"=> 53,
-                "name"=> "Saghata",
-                "bn_name"=> "সাঘাটা"
+                "name_en"=> "Saghata",
+                "name_bn"=> "সাঘাটা"
             ],
             [
                 "id"=> 393,
                 "district_id"=> 53,
-                "name"=> "Gobindaganj",
-                "bn_name"=> "গোবিন্দগঞ্জ"
+                "name_en"=> "Gobindaganj",
+                "name_bn"=> "গোবিন্দগঞ্জ"
             ],
             [
                 "id"=> 394,
                 "district_id"=> 53,
-                "name"=> "Sundarganj",
-                "bn_name"=> "সুন্দরগঞ্জ"
+                "name_en"=> "Sundarganj",
+                "name_bn"=> "সুন্দরগঞ্জ"
             ],
             [
                 "id"=> 395,
                 "district_id"=> 53,
-                "name"=> "Phulchari",
-                "bn_name"=> "ফুলছড়ি"
+                "name_en"=> "Phulchari",
+                "name_bn"=> "ফুলছড়ি"
             ],
             [
                 "id"=> 396,
                 "district_id"=> 54,
-                "name"=> "Thakurgaon Sadar",
-                "bn_name"=> "ঠাকুরগাঁও সদর"
+                "name_en"=> "Thakurgaon Sadar",
+                "name_bn"=> "ঠাকুরগাঁও সদর"
             ],
             [
                 "id"=> 397,
                 "district_id"=> 54,
-                "name"=> "Pirganj",
-                "bn_name"=> "পীরগঞ্জ"
+                "name_en"=> "Pirganj",
+                "name_bn"=> "পীরগঞ্জ"
             ],
             [
                 "id"=> 398,
                 "district_id"=> 54,
-                "name"=> "Ranisankail",
-                "bn_name"=> "রাণীশংকৈল"
+                "name_en"=> "Ranisankail",
+                "name_bn"=> "রাণীশংকৈল"
             ],
             [
                 "id"=> 399,
                 "district_id"=> 54,
-                "name"=> "Haripur",
-                "bn_name"=> "হরিপুর"
+                "name_en"=> "Haripur",
+                "name_bn"=> "হরিপুর"
             ],
             [
                 "id"=> 400,
                 "district_id"=> 54,
-                "name"=> "Baliadangi",
-                "bn_name"=> "বালিয়াডাঙ্গী"
+                "name_en"=> "Baliadangi",
+                "name_bn"=> "বালিয়াডাঙ্গী"
             ],
             [
                 "id"=> 401,
                 "district_id"=> 55,
-                "name"=> "Rangpur Sadar",
-                "bn_name"=> "রংপুর সদর"
+                "name_en"=> "Rangpur Sadar",
+                "name_bn"=> "রংপুর সদর"
             ],
             [
                 "id"=> 402,
                 "district_id"=> 55,
-                "name"=> "Gangachara",
-                "bn_name"=> "গংগাচড়া"
+                "name_en"=> "Gangachara",
+                "name_bn"=> "গংগাচড়া"
             ],
             [
                 "id"=> 403,
                 "district_id"=> 55,
-                "name"=> "Taragonj",
-                "bn_name"=> "তারাগঞ্জ"
+                "name_en"=> "Taragonj",
+                "name_bn"=> "তারাগঞ্জ"
             ],
             [
                 "id"=> 404,
                 "district_id"=> 55,
-                "name"=> "Badargonj",
-                "bn_name"=> "বদরগঞ্জ"
+                "name_en"=> "Badargonj",
+                "name_bn"=> "বদরগঞ্জ"
             ],
             [
                 "id"=> 405,
                 "district_id"=> 55,
-                "name"=> "Mithapukur",
-                "bn_name"=> "মিঠাপুকুর"
+                "name_en"=> "Mithapukur",
+                "name_bn"=> "মিঠাপুকুর"
             ],
             [
                 "id"=> 406,
                 "district_id"=> 55,
-                "name"=> "Pirgonj",
-                "bn_name"=> "পীরগঞ্জ"
+                "name_en"=> "Pirgonj",
+                "name_bn"=> "পীরগঞ্জ"
             ],
             [
                 "id"=> 407,
                 "district_id"=> 55,
-                "name"=> "Kaunia",
-                "bn_name"=> "কাউনিয়া"
+                "name_en"=> "Kaunia",
+                "name_bn"=> "কাউনিয়া"
             ],
             [
                 "id"=> 408,
                 "district_id"=> 55,
-                "name"=> "Pirgacha",
-                "bn_name"=> "পীরগাছা"
+                "name_en"=> "Pirgacha",
+                "name_bn"=> "পীরগাছা"
             ],
             [
                 "id"=> 409,
                 "district_id"=> 56,
-                "name"=> "Kurigram Sadar",
-                "bn_name"=> "কুড়িগ্রাম সদর"
+                "name_en"=> "Kurigram Sadar",
+                "name_bn"=> "কুড়িগ্রাম সদর"
             ],
             [
                 "id"=> 410,
                 "district_id"=> 56,
-                "name"=> "Nageshwari",
-                "bn_name"=> "নাগেশ্বরী"
+                "name_en"=> "Nageshwari",
+                "name_bn"=> "নাগেশ্বরী"
             ],
             [
                 "id"=> 411,
                 "district_id"=> 56,
-                "name"=> "Bhurungamari",
-                "bn_name"=> "ভুরুঙ্গামারী"
+                "name_en"=> "Bhurungamari",
+                "name_bn"=> "ভুরুঙ্গামারী"
             ],
             [
                 "id"=> 412,
                 "district_id"=> 56,
-                "name"=> "Phulbari",
-                "bn_name"=> "ফুলবাড়ী"
+                "name_en"=> "Phulbari",
+                "name_bn"=> "ফুলবাড়ী"
             ],
             [
                 "id"=> 413,
                 "district_id"=> 56,
-                "name"=> "Rajarhat",
-                "bn_name"=> "রাজারহাট"
+                "name_en"=> "Rajarhat",
+                "name_bn"=> "রাজারহাট"
             ],
             [
                 "id"=> 414,
                 "district_id"=> 56,
-                "name"=> "Ulipur",
-                "bn_name"=> "উলিপুর"
+                "name_en"=> "Ulipur",
+                "name_bn"=> "উলিপুর"
             ],
             [
                 "id"=> 415,
                 "district_id"=> 56,
-                "name"=> "Chilmari",
-                "bn_name"=> "চিলমারী"
+                "name_en"=> "Chilmari",
+                "name_bn"=> "চিলমারী"
             ],
             [
                 "id"=> 416,
                 "district_id"=> 56,
-                "name"=> "Rowmari",
-                "bn_name"=> "রৌমারী"
+                "name_en"=> "Rowmari",
+                "name_bn"=> "রৌমারী"
             ],
             [
                 "id"=> 417,
                 "district_id"=> 56,
-                "name"=> "Char Rajibpur",
-                "bn_name"=> "চর রাজিবপুর"
+                "name_en"=> "Char Rajibpur",
+                "name_bn"=> "চর রাজিবপুর"
             ],
             [
                 "id"=> 418,
                 "district_id"=> 57,
-                "name"=> "Balaganj",
-                "bn_name"=> "বালাগঞ্জ"
+                "name_en"=> "Balaganj",
+                "name_bn"=> "বালাগঞ্জ"
             ],
             [
                 "id"=> 419,
                 "district_id"=> 57,
-                "name"=> "Beanibazar",
-                "bn_name"=> "বিয়ানীবাজার"
+                "name_en"=> "Beanibazar",
+                "name_bn"=> "বিয়ানীবাজার"
             ],
             [
                 "id"=> 420,
                 "district_id"=> 57,
-                "name"=> "Bishwanath",
-                "bn_name"=> "বিশ্বনাথ"
+                "name_en"=> "Bishwanath",
+                "name_bn"=> "বিশ্বনাথ"
             ],
             [
                 "id"=> 421,
                 "district_id"=> 57,
-                "name"=> "Companiganj",
-                "bn_name"=> "কোম্পানীগঞ্জ"
+                "name_en"=> "Companiganj",
+                "name_bn"=> "কোম্পানীগঞ্জ"
             ],
             [
                 "id"=> 422,
                 "district_id"=> 57,
-                "name"=> "Fenchuganj",
-                "bn_name"=> "ফেঞ্চুগঞ্জ"
+                "name_en"=> "Fenchuganj",
+                "name_bn"=> "ফেঞ্চুগঞ্জ"
             ],
             [
                 "id"=> 423,
                 "district_id"=> 57,
-                "name"=> "Golapganj",
-                "bn_name"=> "গোলাপগঞ্জ"
+                "name_en"=> "Golapganj",
+                "name_bn"=> "গোলাপগঞ্জ"
             ],
             [
                 "id"=> 424,
                 "district_id"=> 57,
-                "name"=> "Gowainghat",
-                "bn_name"=> "গোয়াইনঘাট"
+                "name_en"=> "Gowainghat",
+                "name_bn"=> "গোয়াইনঘাট"
             ],
             [
                 "id"=> 425,
                 "district_id"=> 57,
-                "name"=> "Jaintiapur",
-                "bn_name"=> "জৈন্তাপুর"
+                "name_en"=> "Jaintiapur",
+                "name_bn"=> "জৈন্তাপুর"
             ],
             [
                 "id"=> 426,
                 "district_id"=> 57,
-                "name"=> "Kanaighat",
-                "bn_name"=> "কানাইঘাট"
+                "name_en"=> "Kanaighat",
+                "name_bn"=> "কানাইঘাট"
             ],
             [
                 "id"=> 427,
                 "district_id"=> 57,
-                "name"=> "Sylhet Sadar",
-                "bn_name"=> "সিলেট সদর"
+                "name_en"=> "Sylhet Sadar",
+                "name_bn"=> "সিলেট সদর"
             ],
             [
                 "id"=> 428,
                 "district_id"=> 57,
-                "name"=> "Zakiganj",
-                "bn_name"=> "জকিগঞ্জ"
+                "name_en"=> "Zakiganj",
+                "name_bn"=> "জকিগঞ্জ"
             ],
             [
                 "id"=> 429,
                 "district_id"=> 57,
-                "name"=> "Dakshin Surma",
-                "bn_name"=> "দক্ষিণ সুরমা"
+                "name_en"=> "Dakshin Surma",
+                "name_bn"=> "দক্ষিণ সুরমা"
             ],
             [
                 "id"=> 430,
                 "district_id"=> 57,
-                "name"=> "Osmani Nagar",
-                "bn_name"=> "ওসমানী নগর"
+                "name_en"=> "Osmani Nagar",
+                "name_bn"=> "ওসমানী নগর"
             ],
             [
                 "id"=> 431,
                 "district_id"=> 58,
-                "name"=> "Barlekha",
-                "bn_name"=> "বড়লেখা"
+                "name_en"=> "Barlekha",
+                "name_bn"=> "বড়লেখা"
             ],
             [
                 "id"=> 432,
                 "district_id"=> 58,
-                "name"=> "Kamolganj",
-                "bn_name"=> "কমলগঞ্জ"
+                "name_en"=> "Kamolganj",
+                "name_bn"=> "কমলগঞ্জ"
             ],
             [
                 "id"=> 433,
                 "district_id"=> 58,
-                "name"=> "Kulaura",
-                "bn_name"=> "কুলাউড়া"
+                "name_en"=> "Kulaura",
+                "name_bn"=> "কুলাউড়া"
             ],
             [
                 "id"=> 434,
                 "district_id"=> 58,
-                "name"=> "Moulvibazar Sadar",
-                "bn_name"=> "মৌলভীবাজার সদর"
+                "name_en"=> "Moulvibazar Sadar",
+                "name_bn"=> "মৌলভীবাজার সদর"
             ],
             [
                 "id"=> 435,
                 "district_id"=> 58,
-                "name"=> "Rajnagar",
-                "bn_name"=> "রাজনগর"
+                "name_en"=> "Rajnagar",
+                "name_bn"=> "রাজনগর"
             ],
             [
                 "id"=> 436,
                 "district_id"=> 58,
-                "name"=> "Sreemangal",
-                "bn_name"=> "শ্রীমঙ্গল"
+                "name_en"=> "Sreemangal",
+                "name_bn"=> "শ্রীমঙ্গল"
             ],
             [
                 "id"=> 437,
                 "district_id"=> 58,
-                "name"=> "Juri",
-                "bn_name"=> "জুড়ী"
+                "name_en"=> "Juri",
+                "name_bn"=> "জুড়ী"
             ],
             [
                 "id"=> 438,
                 "district_id"=> 59,
-                "name"=> "Nabiganj",
-                "bn_name"=> "নবীগঞ্জ"
+                "name_en"=> "Nabiganj",
+                "name_bn"=> "নবীগঞ্জ"
             ],
             [
                 "id"=> 439,
                 "district_id"=> 59,
-                "name"=> "Bahubal",
-                "bn_name"=> "বাহুবল"
+                "name_en"=> "Bahubal",
+                "name_bn"=> "বাহুবল"
             ],
             [
                 "id"=> 440,
                 "district_id"=> 59,
-                "name"=> "Ajmiriganj",
-                "bn_name"=> "আজমিরীগঞ্জ"
+                "name_en"=> "Ajmiriganj",
+                "name_bn"=> "আজমিরীগঞ্জ"
             ],
             [
                 "id"=> 441,
                 "district_id"=> 59,
-                "name"=> "Baniachong",
-                "bn_name"=> "বানিয়াচং"
+                "name_en"=> "Baniachong",
+                "name_bn"=> "বানিয়াচং"
             ],
             [
                 "id"=> 442,
                 "district_id"=> 59,
-                "name"=> "Lakhai",
-                "bn_name"=> "লাখাই"
+                "name_en"=> "Lakhai",
+                "name_bn"=> "লাখাই"
             ],
             [
                 "id"=> 443,
                 "district_id"=> 59,
-                "name"=> "Chunarughat",
-                "bn_name"=> "চুনারুঘাট"
+                "name_en"=> "Chunarughat",
+                "name_bn"=> "চুনারুঘাট"
             ],
             [
                 "id"=> 444,
                 "district_id"=> 59,
-                "name"=> "Habiganj Sadar",
-                "bn_name"=> "হবিগঞ্জ সদর"
+                "name_en"=> "Habiganj Sadar",
+                "name_bn"=> "হবিগঞ্জ সদর"
             ],
             [
                 "id"=> 445,
                 "district_id"=> 59,
-                "name"=> "Madhabpur",
-                "bn_name"=> "মাধবপুর"
+                "name_en"=> "Madhabpur",
+                "name_bn"=> "মাধবপুর"
             ],
             [
                 "id"=> 446,
                 "district_id"=> 60,
-                "name"=> "Sunamganj Sadar",
-                "bn_name"=> "সুনামগঞ্জ সদর"
+                "name_en"=> "Sunamganj Sadar",
+                "name_bn"=> "সুনামগঞ্জ সদর"
             ],
             [
                 "id"=> 447,
                 "district_id"=> 60,
-                "name"=> "South Sunamganj",
-                "bn_name"=> "দক্ষিণ সুনামগঞ্জ"
+                "name_en"=> "South Sunamganj",
+                "name_bn"=> "দক্ষিণ সুনামগঞ্জ"
             ],
             [
                 "id"=> 448,
                 "district_id"=> 60,
-                "name"=> "Bishwambarpur",
-                "bn_name"=> "বিশ্বম্ভরপুর"
+                "name_en"=> "Bishwambarpur",
+                "name_bn"=> "বিশ্বম্ভরপুর"
             ],
             [
                 "id"=> 449,
                 "district_id"=> 60,
-                "name"=> "Chhatak",
-                "bn_name"=> "ছাতক"
+                "name_en"=> "Chhatak",
+                "name_bn"=> "ছাতক"
             ],
             [
                 "id"=> 450,
                 "district_id"=> 60,
-                "name"=> "Jagannathpur",
-                "bn_name"=> "জগন্নাথপুর"
+                "name_en"=> "Jagannathpur",
+                "name_bn"=> "জগন্নাথপুর"
             ],
             [
                 "id"=> 451,
                 "district_id"=> 60,
-                "name"=> "Dowarabazar",
-                "bn_name"=> "দোয়ারাবাজার"
+                "name_en"=> "Dowarabazar",
+                "name_bn"=> "দোয়ারাবাজার"
             ],
             [
                 "id"=> 452,
                 "district_id"=> 60,
-                "name"=> "Tahirpur",
-                "bn_name"=> "তাহিরপুর"
+                "name_en"=> "Tahirpur",
+                "name_bn"=> "তাহিরপুর"
             ],
             [
                 "id"=> 453,
                 "district_id"=> 60,
-                "name"=> "Dharmapasha",
-                "bn_name"=> "ধর্মপাশা"
+                "name_en"=> "Dharmapasha",
+                "name_bn"=> "ধর্মপাশা"
             ],
             [
                 "id"=> 454,
                 "district_id"=> 60,
-                "name"=> "Jamalganj",
-                "bn_name"=> "জামালগঞ্জ"
+                "name_en"=> "Jamalganj",
+                "name_bn"=> "জামালগঞ্জ"
             ],
             [
                 "id"=> 455,
                 "district_id"=> 60,
-                "name"=> "Shalla",
-                "bn_name"=> "শাল্লা"
+                "name_en"=> "Shalla",
+                "name_bn"=> "শাল্লা"
             ],
             [
                 "id"=> 456,
                 "district_id"=> 60,
-                "name"=> "Derai",
-                "bn_name"=> "দিরাই"
+                "name_en"=> "Derai",
+                "name_bn"=> "দিরাই"
             ],
             [
                 "id"=> 457,
                 "district_id"=> 61,
-                "name"=> "Sherpur Sadar",
-                "bn_name"=> "শেরপুর সদর"
+                "name_en"=> "Sherpur Sadar",
+                "name_bn"=> "শেরপুর সদর"
             ],
             [
                 "id"=> 458,
                 "district_id"=> 61,
-                "name"=> "Nalitabari",
-                "bn_name"=> "নালিতাবাড়ী"
+                "name_en"=> "Nalitabari",
+                "name_bn"=> "নালিতাবাড়ী"
             ],
             [
                 "id"=> 459,
                 "district_id"=> 61,
-                "name"=> "Sreebordi",
-                "bn_name"=> "শ্রীবরদী"
+                "name_en"=> "Sreebordi",
+                "name_bn"=> "শ্রীবরদী"
             ],
             [
                 "id"=> 460,
                 "district_id"=> 61,
-                "name"=> "Nokla",
-                "bn_name"=> "নকলা"
+                "name_en"=> "Nokla",
+                "name_bn"=> "নকলা"
             ],
             [
                 "id"=> 461,
                 "district_id"=> 61,
-                "name"=> "Jhenaigati",
-                "bn_name"=> "ঝিনাইগাতী"
+                "name_en"=> "Jhenaigati",
+                "name_bn"=> "ঝিনাইগাতী"
             ],
             [
                 "id"=> 462,
                 "district_id"=> 62,
-                "name"=> "Fulbaria",
-                "bn_name"=> "ফুলবাড়ীয়া"
+                "name_en"=> "Fulbaria",
+                "name_bn"=> "ফুলবাড়ীয়া"
             ],
             [
                 "id"=> 463,
                 "district_id"=> 62,
-                "name"=> "Trishal",
-                "bn_name"=> "ত্রিশাল"
+                "name_en"=> "Trishal",
+                "name_bn"=> "ত্রিশাল"
             ],
             [
                 "id"=> 464,
                 "district_id"=> 62,
-                "name"=> "Bhaluka",
-                "bn_name"=> "ভালুকা"
+                "name_en"=> "Bhaluka",
+                "name_bn"=> "ভালুকা"
             ],
             [
                 "id"=> 465,
                 "district_id"=> 62,
-                "name"=> "Muktagacha",
-                "bn_name"=> "মুক্তাগাছা"
+                "name_en"=> "Muktagacha",
+                "name_bn"=> "মুক্তাগাছা"
             ],
             [
                 "id"=> 466,
                 "district_id"=> 62,
-                "name"=> "Mymensingh Sadar",
-                "bn_name"=> "ময়মনসিংহ সদর"
+                "name_en"=> "Mymensingh Sadar",
+                "name_bn"=> "ময়মনসিংহ সদর"
             ],
             [
                 "id"=> 467,
                 "district_id"=> 62,
-                "name"=> "Dhobaura",
-                "bn_name"=> "ধোবাউড়া"
+                "name_en"=> "Dhobaura",
+                "name_bn"=> "ধোবাউড়া"
             ],
             [
                 "id"=> 468,
                 "district_id"=> 62,
-                "name"=> "Phulpur",
-                "bn_name"=> "ফুলপুর"
+                "name_en"=> "Phulpur",
+                "name_bn"=> "ফুলপুর"
             ],
             [
                 "id"=> 469,
                 "district_id"=> 62,
-                "name"=> "Haluaghat",
-                "bn_name"=> "হালুয়াঘাট"
+                "name_en"=> "Haluaghat",
+                "name_bn"=> "হালুয়াঘাট"
             ],
             [
                 "id"=> 470,
                 "district_id"=> 62,
-                "name"=> "Gouripur",
-                "bn_name"=> "গৌরীপুর"
+                "name_en"=> "Gouripur",
+                "name_bn"=> "গৌরীপুর"
             ],
             [
                 "id"=> 471,
                 "district_id"=> 62,
-                "name"=> "Gafargaon",
-                "bn_name"=> "গফরগাঁও"
+                "name_en"=> "Gafargaon",
+                "name_bn"=> "গফরগাঁও"
             ],
             [
                 "id"=> 472,
                 "district_id"=> 62,
-                "name"=> "Iswarganj",
-                "bn_name"=> "ঈশ্বরগঞ্জ"
+                "name_en"=> "Iswarganj",
+                "name_bn"=> "ঈশ্বরগঞ্জ"
             ],
             [
                 "id"=> 473,
                 "district_id"=> 62,
-                "name"=> "Nandail",
-                "bn_name"=> "নান্দাইল"
+                "name_en"=> "Nandail",
+                "name_bn"=> "নান্দাইল"
             ],
             [
                 "id"=> 474,
                 "district_id"=> 62,
-                "name"=> "Tarakanda",
-                "bn_name"=> "তারাকান্দা"
+                "name_en"=> "Tarakanda",
+                "name_bn"=> "তারাকান্দা"
             ],
             [
                 "id"=> 475,
                 "district_id"=> 63,
-                "name"=> "Jamalpur Sadar",
-                "bn_name"=> "জামালপুর সদর"
+                "name_en"=> "Jamalpur Sadar",
+                "name_bn"=> "জামালপুর সদর"
             ],
             [
                 "id"=> 476,
                 "district_id"=> 63,
-                "name"=> "Melandah",
-                "bn_name"=> "মেলান্দহ"
+                "name_en"=> "Melandah",
+                "name_bn"=> "মেলান্দহ"
             ],
             [
                 "id"=> 477,
                 "district_id"=> 63,
-                "name"=> "Islampur",
-                "bn_name"=> "ইসলামপুর"
+                "name_en"=> "Islampur",
+                "name_bn"=> "ইসলামপুর"
             ],
             [
                 "id"=> 478,
                 "district_id"=> 63,
-                "name"=> "Dewangonj",
-                "bn_name"=> "দেওয়ানগঞ্জ"
+                "name_en"=> "Dewangonj",
+                "name_bn"=> "দেওয়ানগঞ্জ"
             ],
             [
                 "id"=> 479,
                 "district_id"=> 63,
-                "name"=> "Sarishabari",
-                "bn_name"=> "সরিষাবাড়ী"
+                "name_en"=> "Sarishabari",
+                "name_bn"=> "সরিষাবাড়ী"
             ],
             [
                 "id"=> 480,
                 "district_id"=> 63,
-                "name"=> "Madarganj",
-                "bn_name"=> "মাদারগঞ্জ"
+                "name_en"=> "Madarganj",
+                "name_bn"=> "মাদারগঞ্জ"
             ],
             [
                 "id"=> 481,
                 "district_id"=> 63,
-                "name"=> "Bokshiganj",
-                "bn_name"=> "বকশীগঞ্জ"
+                "name_en"=> "Bokshiganj",
+                "name_bn"=> "বকশীগঞ্জ"
             ],
             [
                 "id"=> 482,
                 "district_id"=> 64,
-                "name"=> "Barhatta",
-                "bn_name"=> "বারহাট্টা"
+                "name_en"=> "Barhatta",
+                "name_bn"=> "বারহাট্টা"
             ],
             [
                 "id"=> 483,
                 "district_id"=> 64,
-                "name"=> "Durgapur",
-                "bn_name"=> "দুর্গাপুর"
+                "name_en"=> "Durgapur",
+                "name_bn"=> "দুর্গাপুর"
             ],
             [
                 "id"=> 484,
                 "district_id"=> 64,
-                "name"=> "Kendua",
-                "bn_name"=> "কেন্দুয়া"
+                "name_en"=> "Kendua",
+                "name_bn"=> "কেন্দুয়া"
             ],
             [
                 "id"=> 485,
                 "district_id"=> 64,
-                "name"=> "Atpara",
-                "bn_name"=> "আটপাড়া"
+                "name_en"=> "Atpara",
+                "name_bn"=> "আটপাড়া"
             ],
             [
                 "id"=> 486,
                 "district_id"=> 64,
-                "name"=> "Madan",
-                "bn_name"=> "মদন"
+                "name_en"=> "Madan",
+                "name_bn"=> "মদন"
             ],
             [
                 "id"=> 487,
                 "district_id"=> 64,
-                "name"=> "Khaliajuri",
-                "bn_name"=> "খালিয়াজুরী"
+                "name_en"=> "Khaliajuri",
+                "name_bn"=> "খালিয়াজুরী"
             ],
             [
                 "id"=> 488,
                 "district_id"=> 64,
-                "name"=> "Kalmakanda",
-                "bn_name"=> "কলমাকান্দা"
+                "name_en"=> "Kalmakanda",
+                "name_bn"=> "কলমাকান্দা"
             ],
             [
                 "id"=> 489,
                 "district_id"=> 64,
-                "name"=> "Mohongonj",
-                "bn_name"=> "মোহনগঞ্জ"
+                "name_en"=> "Mohongonj",
+                "name_bn"=> "মোহনগঞ্জ"
             ],
             [
                 "id"=> 490,
                 "district_id"=> 64,
-                "name"=> "Purbadhala",
-                "bn_name"=> "পূর্বধলা"
+                "name_en"=> "Purbadhala",
+                "name_bn"=> "পূর্বধলা"
             ],
             [
                 "id"=> 491,
                 "district_id"=> 64,
-                "name"=> "Netrokona Sadar",
-                "bn_name"=> "নেত্রকোণা সদর"
+                "name_en"=> "Netrokona Sadar",
+                "name_bn"=> "নেত্রকোণা সদর"
             ],
         ]);
     }
