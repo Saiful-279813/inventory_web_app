@@ -24,7 +24,7 @@
                                 >
                                     <img
                                         :src="
-                                        image_url + 'images/user.png'
+                                        image_url + 'static/profile/1.png'
                                         "
                                         alt=""
                                     />
@@ -65,7 +65,7 @@
             <v-layout column align-center>
                 <div class="sidebar-brand">
                     <div class="sidebar-logo">
-                        <img :src="image_url + 'images/user.png'" alt="" />
+                        <img :src="image_url + 'static/profile/1.png'" alt="" />
                     </div>
                     <div class="sidebar-name">
                         <span>Inventory</span>
@@ -87,7 +87,7 @@
                     </router-link>
                 </v-list-item>
 
-                
+
 
                 <!-- account module -->
                 <v-list-group class="mb-2">

@@ -39,7 +39,7 @@
                                             <img
                                                 :src="
                                                 image_url +
-                                                    'profile/1.png'
+                                                    'static/profile/1.png'
                                                 "
                                                 alt=""
                                                 class="img-fluid"
@@ -53,7 +53,7 @@
                                             <img
                                                 :src="
                                                 image_url +
-                                                    'images/user.png'
+                                                    'static/profile/2.png'
                                                 "
                                                 alt=""
                                             />
