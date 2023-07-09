@@ -378,3 +378,7 @@ span.pricing_name {
 .data_list_header_action_bar_small{
     display:none
 }
+
+.custom_padding_control{
+    padding: 5px 12px !important;
+}

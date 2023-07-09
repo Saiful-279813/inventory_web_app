@@ -96,7 +96,7 @@
                             <span class="sidebar-menu-icon">
                                 <i class="fa-solid fa-trash"></i>
                             </span>
-                            Product Module
+                            Product
                         </div>
                     </template>
                     <router-link :to="{name: 'categories'}" class="custom_router_sub_link">
@@ -105,6 +105,20 @@
                     <!-- <router-link to="#" class="custom_router_sub_link">
                         <span class="ml-3">Expense</span>
                     </router-link> -->
+                </v-list-group>
+                <!-- Customer -->
+                <v-list-group class="mb-2">
+                    <template v-slot:activator>
+                        <div class="custom_dropdown_router_link custom_mb_10">
+                            <span class="sidebar-menu-icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                            Customer
+                        </div>
+                    </template>
+                    <router-link :to="{name: 'customer_list'}" class="custom_router_sub_link">
+                        <span class="ml-3">List</span>
+                    </router-link>
                 </v-list-group>
                 <!-- account module -->
 

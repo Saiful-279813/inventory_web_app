@@ -49,6 +49,30 @@ const routes = [
                     title: "Categories",
                 },
             },
+            /* _____ customer module _____ */
+            {
+                path: "/customer/list",
+                component: () =>
+                    import(
+                        /* webpackChunkName: "admin/customer_list" */ "../views/Customer/Index.vue"
+                    ),
+                name: "customer_list",
+                meta: {
+                    title: "Customer",
+                },
+            },
+
+            {
+                path: "/customer/create",
+                component: () =>
+                    import(
+                        /* webpackChunkName: "admin/customer_create" */ "../views/Customer/Add.vue"
+                    ),
+                name: "customer_create",
+                meta: {
+                    title: "Customer Add",
+                },
+            },
 
 
 

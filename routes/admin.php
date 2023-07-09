@@ -17,6 +17,23 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'admin', 'prefix' => 'api/
     Route::post('categories/{id}', 'CategoryController@update');
     Route::apiResource('categories', 'CategoryController');
 
+
+    /* ================ Customer ================ */
+    Route::post('customers/{id}', 'CustomerController@update');
+    Route::apiResource('customers', 'CustomerController');
+    /* ================ Logout ================ */
+    /* ================ Logout ================ */
+    /* ================ Logout ================ */
+    /* ================ Logout ================ */
+    /* ================ Logout ================ */
+    /* ================ Logout ================ */
+    /* ================ GEO Controller ================ */
+    Route::get('division/list', 'GEOController@divisionList');
+    Route::get('district/list', 'GEOController@districtList');
+    Route::get('upazila/list', 'GEOController@upazilaList');
+    Route::get('division/wise/district/list/{id}', 'GEOController@divisionWiseDistrictList');
+    Route::get('district/wise/upazila/list', 'GEOController@districtWiseUpazilaList');
+
     /* ================ Logout ================ */
     Route::get('logout', 'AuthenticateController@logout');
 });
